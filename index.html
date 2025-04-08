@@ -1,0 +1,1847 @@
+<!DOCTYPE html>
+
+<html lang="en" class="fontawesome-i2svg-active fontawesome-i2svg-complete">
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <!-- CSRF Token -->
+    <meta name="csrf-token" content="WWr9dkhHKT0YdRX4S2LRjfJMiNUWhkfVxGVMyxZu" />
+
+    <title>Tech Park It</title>
+    <!--Icon-->
+   
+    <link rel="icon" href="./assets/cropped-aiz-logo-32x32.png" sizes="32x32" />
+    <link rel="icon" href="https://techparkit.org/fabicon.png" sizes="192x192" />
+    <link rel="apple-touch-icon" href="https://techparkit.org/fabicon.png" />
+
+    <!-- Fonts -->
+
+   
+    <!-- Styles -->
+    <link rel="stylesheet" href="./assets/custom.css" />
+    <!--Font Awesome-->
+    <link rel="stylesheet" href="./assets/fontawesome.min.css" />
+    <!--Swiper css-->
+    <link rel="stylesheet" href="./assets/swiper-bundle.min.css" />
+    <!--Slider css-->
+    <link rel="stylesheet" href="./assets/slick.css" />
+    <link rel="stylesheet" href="./assets/slick-theme.css" />
+    <link rel="stylesheet" href="./assets/3d-slider.css" />
+    <!--Animate css-->
+    <link rel="stylesheet" href="./assets/animate.css" />
+    <!--Bootstrap css-->
+    <link rel="stylesheet" href="./assets/bootstrap.min.css" />
+    <!--custom css-->
+    <link rel="stylesheet" href="./assets/aiz-core.css" />
+</head>
+
+<body>
+    <div id="app" class="d-flex flex-column min-vh-100" style="overflow-x: hidden">
+        <!--Section Header [Start]-->
+        <header class="header section-header">
+            <!--Nav Content [Start]-->
+            <div class="nav-div">
+                <nav class="navbar navbar-expand-xl" id="header">
+                    <div class="position-relative d-flex justify-content-between flex-grow-1">
+                        <!-- Logo -->
+                        <div class="d-flex justify-content-between flex-grow-1">
+                            <div class="d-flex align-items-center">
+                                <a class="navbar-brand" href="https://techparkit.org/">
+                                    <img src="https://techparkit.org/frontend/assets/images/tech_park_it_logo/logo_big.png" alt="">
+                                </a>
+                            </div>
+                            <button class="navbar-toggler" type="button" onclick="openNav()"
+                                style="border: none !important">
+                                <img src="./assets/bar.PNG" alt="" />
+                            </button>
+                        </div>
+                        <!--Nav bar Middle Content-->
+                        <div class="collapse navbar-collapse" id="navbarSupportedContent" style="
+                            position: absolute;
+                            top: 50%;
+                            left: 50%;
+                            -webkit-transform: translate(-50%, -50%);
+                            transform: translate(-50%, -50%);
+                            ">
+                            <ul class="d-block product-menu mb-0">
+                                <li class="d-inline selected">
+                                    <a class="text-decoration-none fs-13 fw-500 text-dark"
+                                        href="index.html">Overview</a>
+                                </li>
+        
+                                <li class="d-inline">
+                                    <a class="text-decoration-none fs-13 fw-500 text-dark"
+                                        href="https://activeitzone.com/docs/active-ecommerce-cms">Documentation</a>
+                                </li>
+                            </ul>
+                        </div>
+                        <!--Nav bar end Content-->
+                        <div class="navbar-end d-none d-xl-flex align-items-center">
+                            <div class="navbar-item">
+                                <ul class="navbar-nav">
+                                    <!-- Profile -->
+
+                                    <!-- Promo -->
+                                    <li class="nav-item-right">
+                                        <a href="https://www.youtube.com/embed/ZF0MiEyTWgs?si=LxE5G8aOAjYHDqof"
+                                            class="nav-link-right promo play-video">
+                                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16"
+                                                viewBox="0 0 16 16">
+                                                <path id="Path_3084" data-name="Path 3084"
+                                                    d="M8,0a8,8,0,1,0,8,8A8,8,0,0,0,8,0ZM6,4l6,4L6,12Z" fill="#ea4335"
+                                                    style="isolation: isolate"></path>
+                                            </svg>
+                                            <span class="ml-2">Promo</span>
+                                        </a>
+                                    </li>
+                                    <!-- Portfolio -->
+                                    <li class="nav-item-right">
+                                        <a target="_blank" href="https://techparkit.org/"
+                                            class="nav-link-right portfolio">
+                                            <svg xmlns="http://www.w3.org/2000/svg" width="13.993" height="16"
+                                                viewBox="0 0 13.993 16">
+                                                <path id="Path_2" data-name="Path 2"
+                                                    d="M934.4,1969.733c-.47-.26-1.814-.1-3.43.4a11.339,11.339,0,0,0-5.377,9.344c-.031.109-.308-.014-.364-.048a6.511,6.511,0,0,1-.428-5.224c.119-.2-.27-.441-.339-.372a7.979,7.979,0,0,0-1.11,1.434,6.957,6.957,0,0,0,12.158,6.767c2.163-3.876.156-11.592-1.112-12.3Z"
+                                                    transform="translate(-922.471 -1969.61)" fill="#80b341"
+                                                    style="isolation: isolate"></path>
+                                            </svg>
+                                            <span class="ml-2">Portfolio</span>
+                                        </a>
+                                    </li>
+                                    <!-- Support -->
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </nav>
+                
+            </div>
+            <!-- Nav Content [End]-->
+
+            <!-- Side Nav [Start]-->
+            <div class="sideNavPanel d-xl-none">
+                <div class="sideNavContent">
+                    <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">×</a>
+                    <ul class="navbar-nav mr-auto">
+                        <li class="nav-item">
+                            <a class="nav-link text-white fs-16 fw-400 play-video"
+                                href="https://www.youtube.com/embed/zW6FwRsaxDk">Promo</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-white fs-16 fw-400" target="_blank"
+                                href="https://codecanyon.net/user/activeitzone/portfolio">Portfolio</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-white fs-16 fw-400" target="_blank"
+                                href="http://support.activeitzone.com/?_ga=2.151471801.1428946555.1664702597-663633015.1654070312&amp;_gl=1*a2x1xv*_ga*NjYzNjMzMDE1LjE2NTQwNzAzMTI.*_ga_X1XGT943P9*MTY2NDg2MjI4MS4yNy4xLjE2NjQ4NjM1MTMuMC4wLjA.">Support</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-white fs-16 fw-400"
+                                href="https://activeitzone.com/active-ecommerce-cms#">Profile</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <!-- Side Nav [End]-->
+
+           
+            <!--Baner Content [Start]-->
+            <div class="content" style="
+                background-image: url(https://activeitzone.com/uploads/all/MOeCE2OQ9InJUfeMDmhUofrpF31qDASw0VUB4fgU.jpg);
+                background-size: cover;
+                background-position: center center;
+                background-repeat: no-repeat;
+            ">
+                <div class="baner-content">
+                    <h4 class="fs-24 fw-500 wow fadeInDown" style="
+                    line-height: 28px;
+                    letter-spacing: 0.4px;
+                    visibility: visible;
+                    animation-name: fadeInDown;
+                ">
+                        MOST POWERFUL
+                    </h4>
+                    <h1 class="fs-48 fw-800 wow fadeInLeft" style="
+                        text-transform: inherit;
+                        line-height: 56px;
+                        visibility: visible;
+                        animation-name: fadeInLeft;
+                        color: #dc2626;
+                    ">
+                        Business eCommerce
+                    </h1>
+                    <h3 class="fs-21 fw-500 wow fadeInUp" style="
+                        text-transform: inherit;
+                        padding-left: 5%;
+                        padding-right: 5%;
+                        line-height: 1.5;
+                        letter-spacing: -0.4px;
+                        visibility: visible;
+                        animation-name: fadeInUp;
+                    ">
+                        An effective platform for becoming an eCommerce business owner
+                    </h3>
+                </div>
+                <div class="banner-buttons">
+                    <a target="_blank"
+                        href="https://demo.activeitzone.com/ecommerce/?_ga=2.212193108.1304149677.1675238184-1713902016.1668489048&amp;_gl=1*1tuqy7p*_ga*MTcxMzkwMjAxNi4xNjY4NDg5MDQ4*_ga_X1XGT943P9*MTY3NTMxMTM5My4xNC4xLjE2NzUzMTM2NzkuMC4wLjA."
+                        class="wow fadeInUp my-2 btn btn-outline" data-wow-delay=".3s" style="
+                visibility: visible;
+                animation-delay: 0.3s;
+                animation-name: fadeInUp;
+              ">Browse Frontend</a>
+                    <a target="_blank"
+                        href="https://demo.activeitzone.com/ecommerce/login?_ga=2.212193108.1304149677.1675238184-1713902016.1668489048&amp;_gl=1*1tuqy7p*_ga*MTcxMzkwMjAxNi4xNjY4NDg5MDQ4*_ga_X1XGT943P9*MTY3NTMxMTM5My4xNC4xLjE2NzUzMTM2NzkuMC4wLjA."
+                        class="wow fadeInUp my-2 btn btn-outline" data-wow-delay=".3s" style="
+                visibility: visible;
+                animation-delay: 0.3s;
+                animation-name: fadeInUp;
+              ">Browse Admin</a>
+                </div>
+            </div>
+            <!--Baner Content [End]-->
+        </header>
+        <!--Section Header [End]-->
+
+        <main class="">
+            <!--Section About [Start]-->
+            <div class="section-product_intro" style="background-color: #f3f4f6;">
+                <div class="container">
+                    <h5 class="fw-400 fs-17 text-dark-regular text-center wow fadeInUp font-family-2" style="
+                    line-height: 24px;
+                    letter-spacing: 0.2px;
+                    visibility: visible;
+                    animation-name: fadeInUp;
+                ">
+                        What is
+                    </h5>
+                    <h1 class="fw-800 fs-40 text-center wow fadeInUp mt-2" 
+                    style="
+                        line-height: 44px;
+                        letter-spacing: 0px;
+                        visibility: visible;
+                        color: #dc2626 ;
+                        animation-name: fadeInUp;
+                    ">
+                        Business eCommerce?
+                    </h1>
+                    <div class="row justify-content-center">
+                        <div class="col-md-10">
+                            <p class="fw-400 fs-15 text-dark text-center"
+                                style="line-height: 25px; letter-spacing: -0.4px">
+                                Business eCommerce is a sophisticated web application developed using the Bootstrap HTML framework and the Laravel PHP programming language framework.  We create and administer databases using a Mysql-based database system.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="row justify-content-center align-items-center">
+                        <div class="col-lg-8 col-md-10">
+                            <img src="https://activeitzone.com/uploads/all/MOeCE2OQ9InJUfeMDmhUofrpF31qDASw0VUB4fgU.jpg" alt="" class="w-100" />
+                        </div>
+                    </div>
+                    <div class="watch-promo" style="margin-top: 150px">
+                        <h1 class="fw-800 fs-40 text-center wow fadeInUp" style="
+                        line-height: 44px;
+                        letter-spacing: 0px;
+                        visibility: visible;
+                        color: #dc2626;
+                        animation-name: fadeInUp;
+                        ">
+                            Watch Promo
+                        </h1>
+                        <h5 class="fw-400 fs-17 text-dark-regular text-center wow fadeInUp font-family-2" style="
+                  line-height: 24px;
+                  letter-spacing: 0.2px;
+                  visibility: visible;
+                  animation-name: fadeInUp;
+                ">
+                            Complete system for your eCommerce business
+                        </h5>
+                        <div class="row justify-content-center" style="margin-top: 50px">
+                            <div class="col-md-7">
+                                <div class="liquid-img-group-img-container w-100">
+                                    <div class="liquid-img-group-content content-floated-mid">
+                                        <a href="https://www.youtube.com/embed/98A6tCF6Pa0"
+                                            class="btn btn-naked btn-promo play-video">
+                                            <span>
+                                                <span class="btn-icon"><svg class="svg-inline--fa fa-play"
+                                                        aria-hidden="true" focusable="false" data-prefix="fas"
+                                                        data-icon="play" role="img" xmlns="http://www.w3.org/2000/svg"
+                                                        viewBox="0 0 384 512" data-fa-i2svg="">
+                                                        <path fill="currentColor"
+                                                            d="M361 215C375.3 223.8 384 239.3 384 256C384 272.7 375.3 288.2 361 296.1L73.03 472.1C58.21 482 39.66 482.4 24.52 473.9C9.377 465.4 0 449.4 0 432V80C0 62.64 9.377 46.63 24.52 38.13C39.66 29.64 58.21 29.99 73.03 39.04L361 215z">
+                                                        </path>
+                                                    </svg><!-- <i class="fa fa-play"></i> Font Awesome fontawesome.com --></span>
+                                            </span>
+                                        </a>
+                                    </div>
+                                    <div class="liquid-img-container-inner"></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="getting-instruction" style="margin-top: 30px">
+                        <h1 class="fw-800 fs-40 text-center wow fadeInUp" style="
+                        margin: 80px 0px;
+                        line-height: 44px;
+                        color: #dc2626;
+                        visibility: visible;
+                        animation-name: fadeInUp;
+                        ">
+                            How to get Business eCommerce??
+                        </h1>
+                        <div class="row">
+                            <div class="col-lg-3 col-md-6 py-2">
+                                <div class="getting-instruction-details text-center p-4">
+                                    <img src="./assets/nmQFRDQ49W41tFUZ634Z8PLicxxhavrnOuKmUysX.png" alt=""
+                                        class="w-100" />
+                                    <p class="fs-24 fw-700 text-dark mt-4 mb-2">1</p>
+                                    <p class="fs-14 fw-400 text-dark font-family-2"
+                                        style="line-height: 1.5; letter-spacing: 0.7px">
+                                        Buy Business eCommerce from us
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="col-lg-3 col-md-6 py-2">
+                                <div class="getting-instruction-details text-center p-4">
+                                    <img src="./assets/qkA7NPgdYVKhpxp3lF6XW1MMkNJFftAEe8xLYwiC.png" alt=""
+                                        class="w-100" />
+                                    <p class="fs-24 fw-700 text-dark mt-4 mb-2">2</p>
+                                    <p class="fs-14 fw-400 text-dark font-family-2"
+                                        style="line-height: 1.5; letter-spacing: 0.7px">
+                                        We will set up your platform with eCommerce options
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="col-lg-3 col-md-6 py-2">
+                                <div class="getting-instruction-details text-center p-4">
+                                    <img src="./assets/FJkGmCvJMoeXnkNiVMF0VkZZHACHjx0nArMgCMFr.png" alt=""
+                                        class="w-100" />
+                                    <p class="fs-24 fw-700 text-dark mt-4 mb-2">3</p>
+                                    <p class="fs-14 fw-400 text-dark font-family-2"
+                                        style="line-height: 1.5; letter-spacing: 0.7px">
+                                        Invite sellers to become a part of your platform
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="col-lg-3 col-md-6 py-2">
+                                <div class="getting-instruction-details text-center p-4">
+                                    <img src="./assets/ftEyuWHBNoB79B7KYkDBNEtGY3vfhQKQmecGnnRj.png" alt=""
+                                        class="w-100" />
+                                    <p class="fs-24 fw-700 text-dark mt-4 mb-2">4</p>
+                                    <p class="fs-14 fw-400 text-dark font-family-2"
+                                        style="line-height: 1.5; letter-spacing: 0.7px">
+                                        Begin generating revenue immediately
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!--Section About [End]-->
+            
+            <!--Section Frontend Design [Start]-->
+            <div class="section-frontend-design" style="background-color: #f3f4f6;">
+                <h1 class="fw-800 fs-40 text-center wow fadeInDown" style="
+              line-height: 44px;
+              letter-spacing: 0px;
+              color: #dc2626;
+              visibility: visible;
+              animation-name: fadeInDown;
+            ">
+                    Frontend Design
+                </h1>
+                <div class="row justify-content-center">
+                    <div class="col-md-4">
+                        <p class="fw-400 fs-17 text-dark-regular text-center wow fadeInUp font-family-2" style="
+                  line-height: 24px;
+                  letter-spacing: 0.2px;
+                  visibility: visible;
+                  animation-name: fadeInUp;
+                ">
+                            Distinctive store layout to establish your business as a leading eCommerce platform
+                        </p>
+                    </div>
+                </div>
+                <div class="frontend-design-slider">
+                    <!-- Slider main container -->
+                    <div class="swiper swiper-initialized swiper-horizontal swiper-pointer-events">
+                        <!-- Additional required wrapper -->
+                        <div class="swiper-wrapper" id="swiper-wrapper-4191dbb5969f39fa" aria-live="off" style="
+                  transition-duration: 1200ms;
+                  transform: translate3d(-2400px, 0px, 0px);
+                ">
+                            <div class="swiper-slide swiper-slide-duplicate" data-swiper-slide-index="7"
+                                style="width: 945px; margin-right: 15px" role="group" aria-label="8 / 9">
+                                <figure>
+                                    <img src="./assets/DL23KKPIAIz5M0Sc9ujUjH3i8RQJK7sx4DjtcI8X.webp" alt="" />
+                                </figure>
+                            </div>
+                            <div class="swiper-slide swiper-slide-duplicate" data-swiper-slide-index="8"
+                                style="width: 945px; margin-right: 15px" role="group" aria-label="9 / 9">
+                                <figure>
+                                    <img src="./assets/hN1ca2V684A95hUizM8rzOWOvQiXURXy7o5od4jF.webp" alt="" />
+                                </figure>
+                            </div>
+                            <!-- Slides -->
+                            <div class="swiper-slide swiper-slide-prev" data-swiper-slide-index="0"
+                                style="width: 945px; margin-right: 15px" role="group" aria-label="1 / 9">
+                                <figure>
+                                    <img src="./assets/Tnr4xZfrRxkfrsW5DyK0BxpdBXWYYylmDBsN36t1.webp" alt="" />
+                                </figure>
+                            </div>
+                            <div class="swiper-slide swiper-slide-active" data-swiper-slide-index="1"
+                                style="width: 945px; margin-right: 15px" role="group" aria-label="2 / 9">
+                                <figure>
+                                    <img src="./assets/xmONX2KqXGKnkV1KkCe9HRNrX4jolzgOKrqKCAy7.webp" alt="" />
+                                </figure>
+                            </div>
+                            <div class="swiper-slide swiper-slide-next" data-swiper-slide-index="2"
+                                style="width: 945px; margin-right: 15px" role="group" aria-label="3 / 9">
+                                <figure>
+                                    <img src="./assets/d7QDgucDDhYchrZeqPNFfWZZA299th5MtWJrgqfQ.webp" alt="" />
+                                </figure>
+                            </div>
+                            <div class="swiper-slide" data-swiper-slide-index="3"
+                                style="width: 945px; margin-right: 15px" role="group" aria-label="4 / 9">
+                                <figure>
+                                    <img src="./assets/b2DE2nE0pCZqDDBX3cEvDs3qIJtEQvgLXXODYue3.webp" alt="" />
+                                </figure>
+                            </div>
+                            <div class="swiper-slide" data-swiper-slide-index="4"
+                                style="width: 945px; margin-right: 15px" role="group" aria-label="5 / 9">
+                                <figure>
+                                    <img src="./assets/ocpMo4c1ZRYkk4EJvYj2ckZUiJBDwpkh9jp3rHxG.webp" alt="" />
+                                </figure>
+                            </div>
+                            <div class="swiper-slide" data-swiper-slide-index="5"
+                                style="width: 945px; margin-right: 15px" role="group" aria-label="6 / 9">
+                                <figure>
+                                    <img src="./assets/wSqKlLjpJuHkQUsevVyux7qOOTSJX3Z3mX4NGnga.webp" alt="" />
+                                </figure>
+                            </div>
+                            <div class="swiper-slide" data-swiper-slide-index="6"
+                                style="width: 945px; margin-right: 15px" role="group" aria-label="7 / 9">
+                                <figure>
+                                    <img src="./assets/IrMk8viPVBXLlSPfF53vc6OyY6bgx7S9M1jfDQaC.webp" alt="" />
+                                </figure>
+                            </div>
+                            <div class="swiper-slide" data-swiper-slide-index="7"
+                                style="width: 945px; margin-right: 15px" role="group" aria-label="8 / 9">
+                                <figure>
+                                    <img src="./assets/DL23KKPIAIz5M0Sc9ujUjH3i8RQJK7sx4DjtcI8X.webp" alt="" />
+                                </figure>
+                            </div>
+                            <div class="swiper-slide" data-swiper-slide-index="8"
+                                style="width: 945px; margin-right: 15px" role="group" aria-label="9 / 9">
+                                <figure>
+                                    <img src="./assets/hN1ca2V684A95hUizM8rzOWOvQiXURXy7o5od4jF.webp" alt="" />
+                                </figure>
+                            </div>
+                            <div class="swiper-slide swiper-slide-duplicate swiper-slide-duplicate-prev"
+                                data-swiper-slide-index="0" style="width: 945px; margin-right: 15px" role="group"
+                                aria-label="1 / 9">
+                                <figure>
+                                    <img src="./assets/Tnr4xZfrRxkfrsW5DyK0BxpdBXWYYylmDBsN36t1.webp" alt="" />
+                                </figure>
+                            </div>
+                            <div class="swiper-slide swiper-slide-duplicate swiper-slide-duplicate-active"
+                                data-swiper-slide-index="1" role="group" aria-label="2 / 9"
+                                style="width: 945px; margin-right: 15px">
+                                <figure>
+                                    <img src="./assets/xmONX2KqXGKnkV1KkCe9HRNrX4jolzgOKrqKCAy7.webp" alt="" />
+                                </figure>
+                            </div>
+                        </div>
+                        <div class="swiper-pagination swiper-pagination-clickable swiper-pagination-bullets swiper-pagination-horizontal"
+                            style="bottom: -50px !important">
+                            <span class="swiper-pagination-bullet" tabindex="0" role="button"
+                                aria-label="Go to slide 1"></span><span
+                                class="swiper-pagination-bullet swiper-pagination-bullet-active" tabindex="0"
+                                role="button" aria-label="Go to slide 2" aria-current="true"></span><span
+                                class="swiper-pagination-bullet" tabindex="0" role="button"
+                                aria-label="Go to slide 3"></span><span class="swiper-pagination-bullet" tabindex="0"
+                                role="button" aria-label="Go to slide 4"></span><span class="swiper-pagination-bullet"
+                                tabindex="0" role="button" aria-label="Go to slide 5"></span><span
+                                class="swiper-pagination-bullet" tabindex="0" role="button"
+                                aria-label="Go to slide 6"></span><span class="swiper-pagination-bullet" tabindex="0"
+                                role="button" aria-label="Go to slide 7"></span><span class="swiper-pagination-bullet"
+                                tabindex="0" role="button" aria-label="Go to slide 8"></span><span
+                                class="swiper-pagination-bullet" tabindex="0" role="button"
+                                aria-label="Go to slide 9"></span>
+                        </div>
+                        <span class="swiper-notification" aria-live="assertive" aria-atomic="true"></span>
+                    </div>
+                </div>
+            </div>
+            <!--Section Frontend Design [End]-->
+
+            <!--Section Core Features Design [Strat]-->
+            <div class="section-core-features" style="margin-bottom: 465px; background-color: #f3f4f6;" >
+                <h1 class="fw-800 fs-40 text-center wow fadeInDown" style="
+              line-height: 44px;
+              letter-spacing: 0px;
+              visibility: visible;
+              color: #dc2626;
+              animation-name: fadeInDown;
+            ">
+                    Core Features
+                </h1>
+                <div class="row justify-content-center">
+                    <div class="col-md-4">
+                        <p class="fw-400 fs-17 text-dark-regular text-center wow fadeInUp font-family-2" style="
+                  line-height: 24px;
+                  letter-spacing: 0.2px;
+                  visibility: visible;
+                  animation-name: fadeInUp;
+                ">The standard multivendor system has distinctive features and a beautifully styled UI.
+                        </p>
+                    </div>
+                </div>
+                <div class="features">
+                    <!-- Slider main container -->
+                    <div class="swiper-features swiper-initialized swiper-horizontal swiper-pointer-events">
+                        <!-- Additional required wrapper -->
+                        <div class="swiper-wrapper" id="swiper-wrapper-03986c65b2a520c9" aria-live="off" style="
+                  transform: translate3d(-3806px, 0px, 0px);
+                  transition-duration: 0ms;
+                ">
+                            <div class="swiper-slide swiper-slide-duplicate" data-swiper-slide-index="0"
+                                style="width: 271.857px" role="group" aria-label="1 / 7">
+                                <div class="slide-box">
+                                    <img src="./assets/GKiItyzSxHFYbBWswcg7l45II6cYYgQ50mDQrKfU.png" alt="" />
+                                    <p class="fs-14 fw-700 text-center">Basic eCommerce</p>
+                                </div>
+                                <div class="slide-box">
+                                    <img src="./assets/M3aHJprPPZRcdb87jd4HKaxnBfW1tCpdqX2X6zoQ.png" alt="" />
+                                    <p class="fs-14 fw-700 text-center">Dynamic Color Theme</p>
+                                </div>
+                                <div class="slide-box">
+                                    <img src="./assets/SeqlPUOsnUkWMOl4CWtgbWnVsouCX3WehtIMRmZO.png" alt="" />
+                                    <p class="fs-14 fw-700 text-center">Physical Products</p>
+                                </div>
+                                <div class="slide-box">
+                                    <img src="./assets/s8HBEuMwXevXBCqyescMQ6PrxcQ0Udibh1tWywBW.png" alt="" />
+                                    <p class="fs-14 fw-700 text-center">
+                                        Support Ticket System
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="swiper-slide swiper-slide-duplicate" data-swiper-slide-index="1"
+                                style="width: 271.857px" role="group" aria-label="2 / 7">
+                                <div class="slide-box">
+                                    <img src="./assets/UzteazvsQ9ne4ptaSfYuoHyTOsnLTjLL08uA3WBp.png" alt="" />
+                                    <p class="fs-14 fw-700 text-center">B-B-C eCommerce</p>
+                                </div>
+                                <div class="slide-box">
+                                    <img src="./assets/FY3iSYf9c3PDjvGrtSv5fQYgRIvbC7rUIPacT4XI.png" alt="" />
+                                    <p class="fs-14 fw-700 text-center">
+                                        Awesome Media Manager
+                                    </p>
+                                </div>
+                                <div class="slide-box">
+                                    <img src="./assets/WYaTBoK7yo6sk0HWaj2vbdLzBJ6HHuG4bOFs8DZR.png" alt="" />
+                                    <p class="fs-14 fw-700 text-center">Digital Products</p>
+                                </div>
+                                <div class="slide-box">
+                                    <img src="./assets/mibPF4n1ePYRErG1BykRHQihEh29pkVCEmGMl4aA.png" alt="" />
+                                    <p class="fs-14 fw-700 text-center">Auction System</p>
+                                </div>
+                            </div>
+                            <div class="swiper-slide swiper-slide-duplicate" data-swiper-slide-index="2"
+                                style="width: 271.857px" role="group" aria-label="3 / 7">
+                                <div class="slide-box">
+                                    <img src="./assets/ZJPKDhon1gfMvpJWoDt2XXbptwDiJVBXq7emLBWu.png" alt="" />
+                                    <p class="fs-14 fw-700 text-center">B-C eCommerce</p>
+                                </div>
+                                <div class="slide-box">
+                                    <img src="./assets/s7kCbmF6Jcd01N0Lg4PsxXlGTMnKlELMXw1ubK4J.png" alt="" />
+                                    <p class="fs-14 fw-700 text-center">
+                                        Available Multi-currency
+                                    </p>
+                                </div>
+                                <div class="slide-box">
+                                    <img src="./assets/szuC4dWrYcs7RfXvVDhrC0ZZJGbHQBtG4Ido8Pj2.png" alt="" />
+                                    <p class="fs-14 fw-700 text-center">Classified Products</p>
+                                </div>
+                                <div class="slide-box">
+                                    <img src="./assets/y9Bd5jlxnF8w1hM73XFFfqb2qNmnLA4NsMuUIWdS.png" alt="" />
+                                    <p class="fs-14 fw-700 text-center">Ban a Seller</p>
+                                </div>
+                            </div>
+                            <div class="swiper-slide swiper-slide-duplicate" data-swiper-slide-index="3"
+                                style="width: 271.857px" role="group" aria-label="4 / 7">
+                                <div class="slide-box">
+                                    <img src="./assets/IZnofnRmmaARA8IRtwntWRJi700looK0h0Q2TT6w.png" alt="" />
+                                    <p class="fs-14 fw-700 text-center">C-C eCommerce</p>
+                                </div>
+                                <div class="slide-box">
+                                    <img src="./assets/H0k8NfER3KXPeLqdanJfUSlvEi2odpiUwcKzoRqj.png" alt="" />
+                                    <p class="fs-14 fw-700 text-center">Multiple Language</p>
+                                </div>
+                                <div class="slide-box">
+                                    <img src="./assets/73o9N9OMbSQcGgpu1to2CJ24vsdrndo2CnBxxXgR.png" alt="" />
+                                    <p class="fs-14 fw-700 text-center">Fully Translatable</p>
+                                </div>
+                                <div class="slide-box">
+                                    <img src="./assets/2NiCFBPml90oTAPS4MScE1nl021maORZcTjYpNSP.png" alt="" />
+                                    <p class="fs-14 fw-700 text-center">Ban a Customer</p>
+                                </div>
+                            </div>
+                            <div class="swiper-slide swiper-slide-duplicate" data-swiper-slide-index="4"
+                                style="width: 271.857px" role="group" aria-label="5 / 7">
+                                <div class="slide-box">
+                                    <img src="./assets/l1Rn3YLb0R7hebcjnm0ZRn5q4Kc4tpNRFQrBLLUH.png" alt="" />
+                                    <p class="fs-14 fw-700 text-center">
+                                        Laravel based PHP script
+                                    </p>
+                                </div>
+                                <div class="slide-box">
+                                    <img src="./assets/0sLwSVRJ0TaqIU8pfVF0umBYilcRe36OQ8f9bOic.png" alt="" />
+                                    <p class="fs-14 fw-700 text-center">Dynamic Homepage</p>
+                                </div>
+                                <div class="slide-box">
+                                    <img src="./assets/o4HGVfIg7jFW8MYdDugfnQprWofxlhveToTWTZi2.png" alt="" />
+                                    <p class="fs-14 fw-700 text-center">
+                                        Multiple Payment Gateways
+                                    </p>
+                                </div>
+                                <div class="slide-box">
+                                    <img src="./assets/npiQnfF4CpOdrm2F3EnrTrvBZlhr7WVJc6xxbEkd.png" alt="" />
+                                    <p class="fs-14 fw-700 text-center">Multilingual Content</p>
+                                </div>
+                            </div>
+                            <div class="swiper-slide swiper-slide-duplicate" data-swiper-slide-index="5"
+                                style="width: 271.857px" role="group" aria-label="6 / 7">
+                                <div class="slide-box">
+                                    <img src="./assets/vecNKLN35jxsi883EK7T2W3AqhBG5L2NdH8OFjvd.png" alt="" />
+                                    <p class="fs-14 fw-700 text-center">
+                                        100% Responsive Design
+                                    </p>
+                                </div>
+                                <div class="slide-box">
+                                    <img src="./assets/nSHDGKSGh0bGmgHosrPkd5wlqrOWlTmwHWwS08aE.png" alt="" />
+                                    <p class="fs-14 fw-700 text-center">Dynamic Custom Pages</p>
+                                </div>
+                                <div class="slide-box">
+                                    <img src="./assets/97TgHja8ducRi2xMrrT6rnvJcs2suNGc1eGKNZZh.png" alt="" />
+                                    <p class="fs-14 fw-700 text-center">
+                                        Multiple Shipping Options
+                                    </p>
+                                </div>
+                                <div class="slide-box">
+                                    <img src="./assets/ljKDgCXBhnpL6zYbXVgRnsuAnOqHIGAztR8WblKN.png" alt="" />
+                                    <p class="fs-14 fw-700 text-center">Fully RTL Supported</p>
+                                </div>
+                            </div>
+                            <div class="swiper-slide swiper-slide-duplicate swiper-slide-duplicate-prev"
+                                data-swiper-slide-index="6" style="width: 271.857px" role="group" aria-label="7 / 7">
+                                <div class="slide-box">
+                                    <img src="./assets/IaIPzFea0ttyZNyc701O8RxPqfrlnm1FBu4XN8QJ.png" alt="" />
+                                    <p class="fs-14 fw-700 text-center">Multivendor System</p>
+                                </div>
+                                <div class="slide-box">
+                                    <img src="./assets/hJ8fKpX3ExAZjLxXfl3Spq2C27ROrIkX4UrKhCjt.png" alt="" />
+                                    <p class="fs-14 fw-700 text-center">
+                                        Dynamic Frontend Management
+                                    </p>
+                                </div>
+                                <div class="slide-box">
+                                    <img src="./assets/foSrXPsMZNYwXp0JaQ9Jyl9ZLGa1hK5Bw6vdRBSn.png" alt="" />
+                                    <p class="fs-14 fw-700 text-center">
+                                        Multiple Social Media Login Options
+                                    </p>
+                                </div>
+                                <div class="slide-box">
+                                    <img src="./assets/GKiItyzSxHFYbBWswcg7l45II6cYYgQ50mDQrKfU.png" alt="" />
+                                    <p class="fs-14 fw-700 text-center">
+                                        Contact / Chat with Seller
+                                    </p>
+                                </div>
+                            </div>
+                            <!-- Slides [Start]-->
+                            <div class="swiper-slide swiper-slide-duplicate-active" data-swiper-slide-index="0"
+                                style="width: 271.857px" role="group" aria-label="1 / 7">
+                                <div class="slide-box">
+                                    <img src="./assets/GKiItyzSxHFYbBWswcg7l45II6cYYgQ50mDQrKfU.png" alt="" />
+                                    <p class="fs-14 fw-700 text-center">Basic eCommerce</p>
+                                </div>
+                                <div class="slide-box">
+                                    <img src="./assets/M3aHJprPPZRcdb87jd4HKaxnBfW1tCpdqX2X6zoQ.png" alt="" />
+                                    <p class="fs-14 fw-700 text-center">Dynamic Color Theme</p>
+                                </div>
+                                <div class="slide-box">
+                                    <img src="./assets/SeqlPUOsnUkWMOl4CWtgbWnVsouCX3WehtIMRmZO.png" alt="" />
+                                    <p class="fs-14 fw-700 text-center">Physical Products</p>
+                                </div>
+                                <div class="slide-box">
+                                    <img src="./assets/s8HBEuMwXevXBCqyescMQ6PrxcQ0Udibh1tWywBW.png" alt="" />
+                                    <p class="fs-14 fw-700 text-center">
+                                        Support Ticket System
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="swiper-slide swiper-slide-duplicate-next" data-swiper-slide-index="1"
+                                style="width: 271.857px" role="group" aria-label="2 / 7">
+                                <div class="slide-box">
+                                    <img src="./assets/UzteazvsQ9ne4ptaSfYuoHyTOsnLTjLL08uA3WBp.png" alt="" />
+                                    <p class="fs-14 fw-700 text-center">B-B-C eCommerce</p>
+                                </div>
+                                <div class="slide-box">
+                                    <img src="./assets/FY3iSYf9c3PDjvGrtSv5fQYgRIvbC7rUIPacT4XI.png" alt="" />
+                                    <p class="fs-14 fw-700 text-center">
+                                        Awesome Media Manager
+                                    </p>
+                                </div>
+                                <div class="slide-box">
+                                    <img src="./assets/WYaTBoK7yo6sk0HWaj2vbdLzBJ6HHuG4bOFs8DZR.png" alt="" />
+                                    <p class="fs-14 fw-700 text-center">Digital Products</p>
+                                </div>
+                                <div class="slide-box">
+                                    <img src="./assets/mibPF4n1ePYRErG1BykRHQihEh29pkVCEmGMl4aA.png" alt="" />
+                                    <p class="fs-14 fw-700 text-center">Auction System</p>
+                                </div>
+                            </div>
+                            <div class="swiper-slide" data-swiper-slide-index="2" style="width: 271.857px" role="group"
+                                aria-label="3 / 7">
+                                <div class="slide-box">
+                                    <img src="./assets/ZJPKDhon1gfMvpJWoDt2XXbptwDiJVBXq7emLBWu.png" alt="" />
+                                    <p class="fs-14 fw-700 text-center">B-C eCommerce</p>
+                                </div>
+                                <div class="slide-box">
+                                    <img src="./assets/s7kCbmF6Jcd01N0Lg4PsxXlGTMnKlELMXw1ubK4J.png" alt="" />
+                                    <p class="fs-14 fw-700 text-center">
+                                        Available Multi-currency
+                                    </p>
+                                </div>
+                                <div class="slide-box">
+                                    <img src="./assets/szuC4dWrYcs7RfXvVDhrC0ZZJGbHQBtG4Ido8Pj2.png" alt="" />
+                                    <p class="fs-14 fw-700 text-center">Classified Products</p>
+                                </div>
+                                <div class="slide-box">
+                                    <img src="./assets/y9Bd5jlxnF8w1hM73XFFfqb2qNmnLA4NsMuUIWdS.png" alt="" />
+                                    <p class="fs-14 fw-700 text-center">Ban a Seller</p>
+                                </div>
+                            </div>
+                            <div class="swiper-slide" data-swiper-slide-index="3" style="width: 271.857px" role="group"
+                                aria-label="4 / 7">
+                                <div class="slide-box">
+                                    <img src="./assets/IZnofnRmmaARA8IRtwntWRJi700looK0h0Q2TT6w.png" alt="" />
+                                    <p class="fs-14 fw-700 text-center">C-C eCommerce</p>
+                                </div>
+                                <div class="slide-box">
+                                    <img src="./assets/H0k8NfER3KXPeLqdanJfUSlvEi2odpiUwcKzoRqj.png" alt="" />
+                                    <p class="fs-14 fw-700 text-center">Multiple Language</p>
+                                </div>
+                                <div class="slide-box">
+                                    <img src="./assets/73o9N9OMbSQcGgpu1to2CJ24vsdrndo2CnBxxXgR.png" alt="" />
+                                    <p class="fs-14 fw-700 text-center">Fully Translatable</p>
+                                </div>
+                                <div class="slide-box">
+                                    <img src="./assets/2NiCFBPml90oTAPS4MScE1nl021maORZcTjYpNSP.png" alt="" />
+                                    <p class="fs-14 fw-700 text-center">Ban a Customer</p>
+                                </div>
+                            </div>
+                            <div class="swiper-slide" data-swiper-slide-index="4" style="width: 271.857px" role="group"
+                                aria-label="5 / 7">
+                                <div class="slide-box">
+                                    <img src="./assets/l1Rn3YLb0R7hebcjnm0ZRn5q4Kc4tpNRFQrBLLUH.png" alt="" />
+                                    <p class="fs-14 fw-700 text-center">
+                                        Laravel based PHP script
+                                    </p>
+                                </div>
+                                <div class="slide-box">
+                                    <img src="./assets/0sLwSVRJ0TaqIU8pfVF0umBYilcRe36OQ8f9bOic.png" alt="" />
+                                    <p class="fs-14 fw-700 text-center">Dynamic Homepage</p>
+                                </div>
+                                <div class="slide-box">
+                                    <img src="./assets/o4HGVfIg7jFW8MYdDugfnQprWofxlhveToTWTZi2.png" alt="" />
+                                    <p class="fs-14 fw-700 text-center">
+                                        Multiple Payment Gateways
+                                    </p>
+                                </div>
+                                <div class="slide-box">
+                                    <img src="./assets/npiQnfF4CpOdrm2F3EnrTrvBZlhr7WVJc6xxbEkd.png" alt="" />
+                                    <p class="fs-14 fw-700 text-center">Multilingual Content</p>
+                                </div>
+                            </div>
+                            <div class="swiper-slide" data-swiper-slide-index="5" style="width: 271.857px" role="group"
+                                aria-label="6 / 7">
+                                <div class="slide-box">
+                                    <img src="./assets/vecNKLN35jxsi883EK7T2W3AqhBG5L2NdH8OFjvd.png" alt="" />
+                                    <p class="fs-14 fw-700 text-center">
+                                        100% Responsive Design
+                                    </p>
+                                </div>
+                                <div class="slide-box">
+                                    <img src="./assets/nSHDGKSGh0bGmgHosrPkd5wlqrOWlTmwHWwS08aE.png" alt="" />
+                                    <p class="fs-14 fw-700 text-center">Dynamic Custom Pages</p>
+                                </div>
+                                <div class="slide-box">
+                                    <img src="./assets/97TgHja8ducRi2xMrrT6rnvJcs2suNGc1eGKNZZh.png" alt="" />
+                                    <p class="fs-14 fw-700 text-center">
+                                        Multiple Shipping Options
+                                    </p>
+                                </div>
+                                <div class="slide-box">
+                                    <img src="./assets/ljKDgCXBhnpL6zYbXVgRnsuAnOqHIGAztR8WblKN.png" alt="" />
+                                    <p class="fs-14 fw-700 text-center">Fully RTL Supported</p>
+                                </div>
+                            </div>
+                            <div class="swiper-slide swiper-slide-prev" data-swiper-slide-index="6"
+                                style="width: 271.857px" role="group" aria-label="7 / 7">
+                                <div class="slide-box">
+                                    <img src="./assets/IaIPzFea0ttyZNyc701O8RxPqfrlnm1FBu4XN8QJ.png" alt="" />
+                                    <p class="fs-14 fw-700 text-center">Multivendor System</p>
+                                </div>
+                                <div class="slide-box">
+                                    <img src="./assets/hJ8fKpX3ExAZjLxXfl3Spq2C27ROrIkX4UrKhCjt.png" alt="" />
+                                    <p class="fs-14 fw-700 text-center">
+                                        Dynamic Frontend Management
+                                    </p>
+                                </div>
+                                <div class="slide-box">
+                                    <img src="./assets/foSrXPsMZNYwXp0JaQ9Jyl9ZLGa1hK5Bw6vdRBSn.png" alt="" />
+                                    <p class="fs-14 fw-700 text-center">
+                                        Multiple Social Media Login Options
+                                    </p>
+                                </div>
+                                <div class="slide-box">
+                                    <img src="./assets/GKiItyzSxHFYbBWswcg7l45II6cYYgQ50mDQrKfU.png" alt="" />
+                                    <p class="fs-14 fw-700 text-center">
+                                        Contact / Chat with Seller
+                                    </p>
+                                </div>
+                            </div>
+                            <!-- Slides [End]-->
+                            <div class="swiper-slide swiper-slide-duplicate swiper-slide-active"
+                                data-swiper-slide-index="0" style="width: 271.857px" role="group" aria-label="1 / 7">
+                                <div class="slide-box">
+                                    <img src="./assets/GKiItyzSxHFYbBWswcg7l45II6cYYgQ50mDQrKfU.png" alt="" />
+                                    <p class="fs-14 fw-700 text-center">Basic eCommerce</p>
+                                </div>
+                                <div class="slide-box">
+                                    <img src="./assets/M3aHJprPPZRcdb87jd4HKaxnBfW1tCpdqX2X6zoQ.png" alt="" />
+                                    <p class="fs-14 fw-700 text-center">Dynamic Color Theme</p>
+                                </div>
+                                <div class="slide-box">
+                                    <img src="./assets/SeqlPUOsnUkWMOl4CWtgbWnVsouCX3WehtIMRmZO.png" alt="" />
+                                    <p class="fs-14 fw-700 text-center">Physical Products</p>
+                                </div>
+                                <div class="slide-box">
+                                    <img src="./assets/s8HBEuMwXevXBCqyescMQ6PrxcQ0Udibh1tWywBW.png" alt="" />
+                                    <p class="fs-14 fw-700 text-center">
+                                        Support Ticket System
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="swiper-slide swiper-slide-duplicate swiper-slide-next"
+                                data-swiper-slide-index="1" style="width: 271.857px" role="group" aria-label="2 / 7">
+                                <div class="slide-box">
+                                    <img src="./assets/UzteazvsQ9ne4ptaSfYuoHyTOsnLTjLL08uA3WBp.png" alt="" />
+                                    <p class="fs-14 fw-700 text-center">B-B-C eCommerce</p>
+                                </div>
+                                <div class="slide-box">
+                                    <img src="./assets/FY3iSYf9c3PDjvGrtSv5fQYgRIvbC7rUIPacT4XI.png" alt="" />
+                                    <p class="fs-14 fw-700 text-center">
+                                        Awesome Media Manager
+                                    </p>
+                                </div>
+                                <div class="slide-box">
+                                    <img src="./assets/WYaTBoK7yo6sk0HWaj2vbdLzBJ6HHuG4bOFs8DZR.png" alt="" />
+                                    <p class="fs-14 fw-700 text-center">Digital Products</p>
+                                </div>
+                                <div class="slide-box">
+                                    <img src="./assets/mibPF4n1ePYRErG1BykRHQihEh29pkVCEmGMl4aA.png" alt="" />
+                                    <p class="fs-14 fw-700 text-center">Auction System</p>
+                                </div>
+                            </div>
+                            <div class="swiper-slide swiper-slide-duplicate" data-swiper-slide-index="2"
+                                style="width: 271.857px" role="group" aria-label="3 / 7">
+                                <div class="slide-box">
+                                    <img src="./assets/ZJPKDhon1gfMvpJWoDt2XXbptwDiJVBXq7emLBWu.png" alt="" />
+                                    <p class="fs-14 fw-700 text-center">B-C eCommerce</p>
+                                </div>
+                                <div class="slide-box">
+                                    <img src="./assets/s7kCbmF6Jcd01N0Lg4PsxXlGTMnKlELMXw1ubK4J.png" alt="" />
+                                    <p class="fs-14 fw-700 text-center">
+                                        Available Multi-currency
+                                    </p>
+                                </div>
+                                <div class="slide-box">
+                                    <img src="./assets/szuC4dWrYcs7RfXvVDhrC0ZZJGbHQBtG4Ido8Pj2.png" alt="" />
+                                    <p class="fs-14 fw-700 text-center">Classified Products</p>
+                                </div>
+                                <div class="slide-box">
+                                    <img src="./assets/y9Bd5jlxnF8w1hM73XFFfqb2qNmnLA4NsMuUIWdS.png" alt="" />
+                                    <p class="fs-14 fw-700 text-center">Ban a Seller</p>
+                                </div>
+                            </div>
+                            <div class="swiper-slide swiper-slide-duplicate" data-swiper-slide-index="3"
+                                style="width: 271.857px" role="group" aria-label="4 / 7">
+                                <div class="slide-box">
+                                    <img src="./assets/IZnofnRmmaARA8IRtwntWRJi700looK0h0Q2TT6w.png" alt="" />
+                                    <p class="fs-14 fw-700 text-center">C-C eCommerce</p>
+                                </div>
+                                <div class="slide-box">
+                                    <img src="./assets/H0k8NfER3KXPeLqdanJfUSlvEi2odpiUwcKzoRqj.png" alt="" />
+                                    <p class="fs-14 fw-700 text-center">Multiple Language</p>
+                                </div>
+                                <div class="slide-box">
+                                    <img src="./assets/73o9N9OMbSQcGgpu1to2CJ24vsdrndo2CnBxxXgR.png" alt="" />
+                                    <p class="fs-14 fw-700 text-center">Fully Translatable</p>
+                                </div>
+                                <div class="slide-box">
+                                    <img src="./assets/2NiCFBPml90oTAPS4MScE1nl021maORZcTjYpNSP.png" alt="" />
+                                    <p class="fs-14 fw-700 text-center">Ban a Customer</p>
+                                </div>
+                            </div>
+                            <div class="swiper-slide swiper-slide-duplicate" data-swiper-slide-index="4"
+                                style="width: 271.857px" role="group" aria-label="5 / 7">
+                                <div class="slide-box">
+                                    <img src="./assets/l1Rn3YLb0R7hebcjnm0ZRn5q4Kc4tpNRFQrBLLUH.png" alt="" />
+                                    <p class="fs-14 fw-700 text-center">
+                                        Laravel based PHP script
+                                    </p>
+                                </div>
+                                <div class="slide-box">
+                                    <img src="./assets/0sLwSVRJ0TaqIU8pfVF0umBYilcRe36OQ8f9bOic.png" alt="" />
+                                    <p class="fs-14 fw-700 text-center">Dynamic Homepage</p>
+                                </div>
+                                <div class="slide-box">
+                                    <img src="./assets/o4HGVfIg7jFW8MYdDugfnQprWofxlhveToTWTZi2.png" alt="" />
+                                    <p class="fs-14 fw-700 text-center">
+                                        Multiple Payment Gateways
+                                    </p>
+                                </div>
+                                <div class="slide-box">
+                                    <img src="./assets/npiQnfF4CpOdrm2F3EnrTrvBZlhr7WVJc6xxbEkd.png" alt="" />
+                                    <p class="fs-14 fw-700 text-center">Multilingual Content</p>
+                                </div>
+                            </div>
+                            <div class="swiper-slide swiper-slide-duplicate" data-swiper-slide-index="5"
+                                style="width: 271.857px" role="group" aria-label="6 / 7">
+                                <div class="slide-box">
+                                    <img src="./assets/vecNKLN35jxsi883EK7T2W3AqhBG5L2NdH8OFjvd.png" alt="" />
+                                    <p class="fs-14 fw-700 text-center">
+                                        100% Responsive Design
+                                    </p>
+                                </div>
+                                <div class="slide-box">
+                                    <img src="./assets/nSHDGKSGh0bGmgHosrPkd5wlqrOWlTmwHWwS08aE.png" alt="" />
+                                    <p class="fs-14 fw-700 text-center">Dynamic Custom Pages</p>
+                                </div>
+                                <div class="slide-box">
+                                    <img src="./assets/97TgHja8ducRi2xMrrT6rnvJcs2suNGc1eGKNZZh.png" alt="" />
+                                    <p class="fs-14 fw-700 text-center">
+                                        Multiple Shipping Options
+                                    </p>
+                                </div>
+                                <div class="slide-box">
+                                    <img src="./assets/ljKDgCXBhnpL6zYbXVgRnsuAnOqHIGAztR8WblKN.png" alt="" />
+                                    <p class="fs-14 fw-700 text-center">Fully RTL Supported</p>
+                                </div>
+                            </div>
+                            <div class="swiper-slide swiper-slide-duplicate swiper-slide-duplicate-prev"
+                                data-swiper-slide-index="6" role="group" aria-label="7 / 7" style="width: 271.857px">
+                                <div class="slide-box">
+                                    <img src="./assets/IaIPzFea0ttyZNyc701O8RxPqfrlnm1FBu4XN8QJ.png" alt="" />
+                                    <p class="fs-14 fw-700 text-center">Multivendor System</p>
+                                </div>
+                                <div class="slide-box">
+                                    <img src="./assets/hJ8fKpX3ExAZjLxXfl3Spq2C27ROrIkX4UrKhCjt.png" alt="" />
+                                    <p class="fs-14 fw-700 text-center">
+                                        Dynamic Frontend Management
+                                    </p>
+                                </div>
+                                <div class="slide-box">
+                                    <img src="./assets/foSrXPsMZNYwXp0JaQ9Jyl9ZLGa1hK5Bw6vdRBSn.png" alt="" />
+                                    <p class="fs-14 fw-700 text-center">
+                                        Multiple Social Media Login Options
+                                    </p>
+                                </div>
+                                <div class="slide-box">
+                                    <img src="./assets/GKiItyzSxHFYbBWswcg7l45II6cYYgQ50mDQrKfU.png" alt="" />
+                                    <p class="fs-14 fw-700 text-center">
+                                        Contact / Chat with Seller
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        <span class="swiper-notification" aria-live="assertive" aria-atomic="true"></span>
+                    </div>
+                </div>
+                <!-- <div class="text-center">
+                    <a href="https://activeitzone.com/product/active-ecommerce-cms/features"
+                        class="btn btn-feature wow fadeInDown" data-wow-delay=".3s" style="
+                        background-color: rgb(234, 67, 53);
+                        border-color: rgb(234, 67, 53);
+                        color: rgb(255, 255, 255);
+                        visibility: visible;
+                        animation-delay: 0.3s;
+                        animation-name: fadeInDown;
+                        ">
+                        View All Features
+                    </a>
+                </div> -->
+            </div>
+            <!--Section Core Features Design [End]-->
+
+            <!--Section Product Posting [Start]-->
+            <div class="product-posting" style="background: #f5f5f7">
+                <div class="container text-center">
+                    <img class="product-posting-img" src="./assets/gqAyitvlJyN0Si05DVMsXZTGEsdZAmO4ZCc1Yn8b.webp" alt=""
+                        style="width: 80%; margin: -230px 0 60px" />
+                            <h1 class="fw-800 fs-40 text-center wow fadeInDown" style="
+                        line-height: 44px;
+                        letter-spacing: 0px;
+                        visibility: visible;
+                        color: #dc2626;
+                        animation-name: fadeInDown;
+                    ">
+                        Simple Posting of Products
+                    </h1>
+                    <div class="row justify-content-center">
+                        <div class="col-md-7 mt-2">
+                            <p class="fw-400 fs-17 text-dark-regular text-center wow fadeInUp font-family-2" style="
+                    line-height: 1.5;
+                    letter-spacing: 0.7px;
+                    visibility: visible;
+                    animation-name: fadeInUp;
+                  ">
+                                The provision of an industry-leading standard is made possible by an effective and carefully considered streamlined product posting option for administrators and sellers.
+
+                            </p>
+                        </div>
+                    </div>
+                    <div class="posting-instruction mt-3">
+                        <div class="row gutters-16">
+                            <div class="col-lg-3 col-md-6 py-3">
+                                <div class="posting-instruction-details text-center p-4 bg-white">
+                                    <img src="./assets/zTnBbrUd2ZizvZsh3RNWTYYTYQQtV6YtDiAUhhcI.png" alt="" />
+                                    <p class="fs-14 fw-400 text-dark-medium mt-3 mb-0 font-family-2"
+                                        style="line-height: 1.5; letter-spacing: 0.7px">
+                                        Products Variant
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="col-lg-3 col-md-6 py-3">
+                                <div class="posting-instruction-details text-center p-4 bg-white">
+                                    <img src="./assets/2RrIMEBodrlyDYTV0jX5rlQzyB7TKeMwe05An3ok.png" alt="" />
+                                    <p class="fs-14 fw-400 text-dark-medium mt-3 mb-0 font-family-2"
+                                        style="line-height: 1.5; letter-spacing: 0.7px">
+                                        Featured Product
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="col-lg-3 col-md-6 py-3">
+                                <div class="posting-instruction-details text-center p-4 bg-white">
+                                    <img src="./assets/heG5ndBzSWgSsrtCk4W7DzUw6fKAP1e3TC6eN3DR.png" alt="" />
+                                    <p class="fs-14 fw-400 text-dark-medium mt-3 mb-0 font-family-2"
+                                        style="line-height: 1.5; letter-spacing: 0.7px">
+                                        Product Wishlist
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="col-lg-3 col-md-6 py-3">
+                                <div class="posting-instruction-details text-center p-4 bg-white">
+                                    <img src="./assets/39IJgLcMKB8GvoVoFtrvfA5HUPl43RHn9pvjj4PQ.png" alt="" />
+                                    <p class="fs-14 fw-400 text-dark-medium mt-3 mb-0 font-family-2"
+                                        style="line-height: 1.5; letter-spacing: 0.7px">
+                                        Products Flash Deal
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="col-lg-3 col-md-6 py-3">
+                                <div class="posting-instruction-details text-center p-4 bg-white">
+                                    <img src="./assets/fdBEiEiGsdu8RetZenN1vaOgpLC1dNRJj09qhpGm.png" alt="" />
+                                    <p class="fs-14 fw-400 text-dark-medium mt-3 mb-0 font-family-2"
+                                        style="line-height: 1.5; letter-spacing: 0.7px">
+                                        Today's Deal
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="col-lg-3 col-md-6 py-3">
+                                <div class="posting-instruction-details text-center p-4 bg-white">
+                                    <img src="./assets/s940G2LITTmgHyEvXdmK6Zm03VXxe1AugqVWtjG7.png" alt="" />
+                                    <p class="fs-14 fw-400 text-dark-medium mt-3 mb-0 font-family-2"
+                                        style="line-height: 1.5; letter-spacing: 0.7px">
+                                        Product Compare
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="col-lg-3 col-md-6 py-3">
+                                <div class="posting-instruction-details text-center p-4 bg-white">
+                                    <img src="./assets/Xd7Y120AootSdTRy6kNo6WLaTJV0pTWqRYFDU94f.png" alt="" />
+                                    <p class="fs-14 fw-400 text-dark-medium mt-3 mb-0 font-family-2"
+                                        style="line-height: 1.5; letter-spacing: 0.7px">
+                                        Discounted Product
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="col-lg-3 col-md-6 py-3">
+                                <div class="posting-instruction-details text-center p-4 bg-white">
+                                    <img src="./assets/qawMukFDo9qQvjZLkAbkjn7Q5M7mXM3nemEy3Fs8.png" alt="" />
+                                    <p class="fs-14 fw-400 text-dark-medium mt-3 mb-0 font-family-2"
+                                        style="line-height: 1.5; letter-spacing: 0.7px">
+                                        Free/Flat Shipping
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!--Section Product Posting [End]-->
+
+            <!--Section Payment Getway [Start]-->
+            <div class="section-payment-getway">
+                <div class="container">
+                    <div class="row justify-content-center">
+                        <div class="col-md-7">
+                            <h1 class="fw-800 fs-40 text-center wow fadeInDown" style="
+                                line-height: 44px;
+                                letter-spacing: 0px;
+                                padding: 0px 12%;
+                                color: #dc2626;
+                                visibility: visible;
+                                animation-name: fadeInDown;
+                            ">
+                                Multiple Payment Gateways
+                            </h1>
+                            <p class="fw-400 fs-17 text-white text-center wow fadeInUp mt-4 font-family-2" style="
+                                line-height: 25px;
+                                letter-spacing: -0.4px;
+                                visibility: visible;
+                                animation-name: fadeInUp;
+                            ">
+                                Business eCommerce offers a variety of payment methods, allowing you to receive payments from your customers through the gateways that best suit your needs.
+                            </p>
+                        </div>
+                    </div>
+                   
+                    <div class="row justify-content-center py-md-2" style="margin-top: 60px">
+                        <div class="col-lg-2 col-md-4 col-sm-6 py-2">
+                            <div class="img-div w-100 overflow-hidden" style="border-radius: 8px">
+                                <img src="./assets/GJKF76fxNQBvTBfvgkFePvzzGAiMiaNN6YrvaikC.png" alt="" class="w-100" />
+                            </div>
+                        </div>
+                        <div class="col-lg-2 col-md-4 col-sm-6 py-2">
+                            <div class="img-div w-100 overflow-hidden" style="border-radius: 8px">
+                                <img src="./assets/aLxknBWhEu8o0lxqJkOYDdyN7oSCwObDDMnwilmH.png" alt="" class="w-100" />
+                            </div>
+                        </div>
+                        <div class="col-lg-2 col-md-4 col-sm-6 py-2">
+                            <div class="img-div w-100 overflow-hidden" style="border-radius: 8px">
+                                <img src="./assets/ShvOlAkmgdNzydTlTMRrnnY0EPukUBWiHvVpk3V2.png" alt="" class="w-100" />
+                            </div>
+                        </div>
+                        <div class="col-lg-2 col-md-4 col-sm-6 py-2">
+                            <div class="img-div w-100 overflow-hidden" style="border-radius: 8px">
+                                <img src="./assets/lz8Jz5liB3pQWVmNkld2ExWmzgwsvex7A6EBf1to.png" alt="" class="w-100" />
+                            </div>
+                        </div>
+                    </div>
+                    <div class="p-0 m-0 text-center">
+                        <small style="
+                        font-weight: normal;
+                        font-size: 14px;
+                        letter-spacing: 0em;
+                        line-height: 25px;
+                        text-align: center;
+                        color: #ea4335;
+                        ">*Additional payment gateways can be integrated upon request.</small>
+                    </div>
+                </div>
+            </div>
+            <!--Section Payment Getway [End]-->
+
+            <!--Section Product Details [Start]-->
+
+            <div class="section-product-details" >
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-4 order-md-1 d-flex align-items-center">
+                            <div>
+                                <h1 class="fw-800 fs-40 text-center text-md-left wow fadeInDown lh-1-2"
+                                    style="
+                      letter-spacing: 0px;
+                      visibility: visible;
+                      color: #dc2626;
+                      animation-name: fadeInDown;
+                    ">
+                                    Getting Started with Business eCommerce
+                                </h1>
+                                <p class="fw-400 fs-17 mt-4 text-dark-regular text-center text-md-left wow fadeInUp font-family-2 lh-1-6"
+                                    style="
+                      letter-spacing: -0.4px;
+                      visibility: visible;
+                      animation-name: fadeInUp;
+                    ">
+                                    Getting started with Business eCommerce is simple and efficient. 
+                                    It provides a user-friendly interface for sellers to set up their 
+                                    shop, manage products, and track orders seamlessly. The platform 
+                                    ensures a smooth experience for both sellers and customers.
+                                </p>
+                            </div>
+                        </div>
+                        <div class="col-md-8 d-flex wow fadeInLeft"
+                            style="visibility: visible; animation-name: fadeInLeft">
+                            <img src="./assets/CROr02JUU48imCHw6sHKymULooZgYRHizj6R2EMS.webp" alt="" class="w-100" />
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!--Section Product Details [End]-->
+
+            <!--Section Product Details [Start]-->
+            <div class="section-product-details">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-4 d-flex align-items-center">
+                            <div>
+                                <h1 class="fw-800 fs-40 text-center text-md-right wow fadeInDown lh-1-2"
+                                    style="
+                      letter-spacing: 0px;
+                      color: #dc2626;
+                      visibility: visible;
+                      animation-name: fadeInDown;
+                    ">
+                                    Order tracking System
+                                </h1>
+                                <p class="fw-400 fs-17 text-dark-regular text-center text-md-right mt-4 wow fadeInUp font-family-2 lh-1-6"
+                                    style="
+                      letter-spacing: -0.4px;
+                      visibility: visible;
+                      animation-name: fadeInUp;
+                    ">
+                             With this amazing order monitoring system from Business eCommerce, you can inform your clients about the status of their goods and when they will be delivered.
+
+                                </p>
+                            </div>
+                        </div>
+                        <div class="col-md-8 d-flex wow fadeInRight"
+                            style="visibility: visible; animation-name: fadeInRight">
+                            <img src="./assets/ibFVpJR2kgMmyf21hrmeSkW22L0435a4kZi8UBLB.png" alt="" class="w-100" />
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!--Section Product Details [End]-->
+
+            <!--Section Product Details [Start]-->
+
+            <div class="section-product-details">
+                <div class="container">
+                    <div class="">
+                        <h1 class="fw-800 fs-40 text-center wow fadeInDown lh-1-2" style="
+                  letter-spacing: 0px;
+                  visibility: visible;
+                  color: #dc2626;
+                  animation-name: fadeInDown;
+                ">
+                            Pick Up Point
+                        </h1>
+                        <div class="row justify-content-center wow fadeInUp"
+                            style="visibility: visible; animation-name: fadeInUp">
+                            <div class="col-md-8 text-center">
+                                <p class="fw-400 fs-17 text-center mt-2 font-family-2 lh-1-6"
+                                    style="letter-spacing: -0.4px">
+                                    The Pickup Point feature in Active eCommerce CMS offers a comprehensive solution for retailers with multiple locations, distribution centers, or pickup sites. This functionality enables customers to conveniently collect their purchased items from designated pickup points.
+                                </p>
+                            </div>
+                        </div>
+                        <img src="./assets/w3ohmC3CdYRaAOPYcJUEhzWTrRkEuRxYGorTAs9F.png" alt="" class="w-100 mt-4" />
+                    </div>
+                </div>
+            </div>
+
+            <!--Section Product Details [End]-->
+
+            <!--Section Product Details [Start]-->
+            <div class="section-product-details">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-4 d-flex align-items-center">
+                            <div>
+                                <h1 class="fw-800 fs-40 text-center text-md-right wow fadeInDown lh-1-2"
+                                    style="
+                      letter-spacing: 0px;
+                      visibility: visible;
+                      color: #dc2626;
+                      animation-name: fadeInDown;
+                    ">
+                                    Suggestive Search
+                                </h1>
+                                <p class="fw-400 fs-17 text-dark-regular text-center text-md-right mt-4 wow fadeInUp font-family-2 lh-1-6"
+                                    style="
+                      letter-spacing: -0.4px;
+                      visibility: visible;
+                      animation-name: fadeInUp;
+                    ">
+                                    Suggestive Live Search is an advanced feature of Active
+                                    eCommerce CMS that enhances the search functionality of your website!
+                                </p>
+                            </div>
+                        </div>
+                        <div class="col-md-8 d-flex wow fadeInRight"
+                            style="visibility: visible; animation-name: fadeInRight">
+                            <img src="./assets/jZTIKYZbiC2S2zctIBM151vYFaPrCFuewWHqL0Pu.webp" alt="" class="w-100" />
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!--Section Product Details [End]-->
+
+            <!--Section Product Details [Start]-->
+
+            <div class="section-product-details">
+                <div class="container">
+                    <div class="">
+                        <h1 class="fw-800 fs-40 text-center wow fadeInDown lh-1-2" style="
+                  letter-spacing: 0px;
+                  visibility: visible;
+                  color: #dc2626;
+                  animation-name: fadeInDown;
+                ">
+                            Responsive Design
+                        </h1>
+                        <div class="row justify-content-center wow fadeInUp"
+                            style="visibility: visible; animation-name: fadeInUp">
+                            <div class="col-md-8 text-center">
+                                <p class="fw-400 fs-17 text-center mt-2 font-family-2 lh-1-6"
+                                    style="letter-spacing: -0.4px">
+                                    Business eCommerce is a robust eCommerce solution featuring a fully responsive design and seamless browser compatibility.
+                                </p>
+                            </div>
+                        </div>
+                        <img src="./assets/RVBby4ahayfliHgVZTFATrnlcbe89L1gaFyiY1eA.webp" alt="" class="w-100 mt-4" />
+                    </div>
+                </div>
+            </div>
+
+            <!--Section Product Details [End]-->
+
+            <!--Section Product Details [Start]-->
+
+            <div class="section-product-details">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-4 order-md-1 d-flex align-items-center">
+                            <div>
+                                <h1 class="fw-800 fs-40 text-center text-md-left wow fadeInDown lh-1-2"
+                                    style="
+                      letter-spacing: 0px;
+                      color: #dc2626;
+                      visibility: visible;
+                      animation-name: fadeInDown;
+                    ">
+                                    Your Business is in your Hand!
+                                </h1>
+                                <p class="fw-400 fs-17 mt-4 text-dark-regular text-center text-md-left wow fadeInUp font-family-2 lh-1-6"
+                                    style="
+                      letter-spacing: -0.4px;
+                      visibility: hidden;
+                      animation-name: none;
+                    ">
+                                    The admin panel of Business eCommerce serves as the central hub for managing your business. It allows you to oversee every aspect of your eCommerce operations, including customers, products, orders, sellers, and shops. It provides all the tools necessary to efficiently manage your online store.
+                                </p>
+                            </div>
+                        </div>
+                        <div class="col-md-8 d-flex wow fadeInLeft"
+                            style="visibility: visible; animation-name: fadeInLeft">
+                            <img src="./assets/vilZoS1apKpDcTsHU1vr0LE7vpSU1B6OH28I8TOq.png" alt="" class="w-100" />
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!--Section Product Details [End]-->
+
+            <!--Section Pricing [Start]-->
+            <div class="section-price" style="background-color: #f3f4f6;">
+                <div class="container" style="border-top: 1px solid #e0e0e0; padding-top: 60px">
+                    <h1 class="fw-800 fs-40 text-center wow fadeInUp" style="
+                        line-height: 44px;
+                        letter-spacing: 0px;
+                        visibility: hidden;
+                        animation-name: none;
+                        color: #dc2626;
+                    ">
+                        Affordable Pricing
+                    </h1>
+                    <div class="row justify-content-center mt-4">
+                        <!--Regular License [Start]-->
+                        <div class="col-lg-4 col-md-6 my-3">
+                            <div style="
+                                padding: 1.875rem;
+                                border: 1px dashed #e7e7e7;
+                                border-radius: 16px;
+                            ">
+                                <p class="fs-17 fw-700 text-dark-regular">Regular License</p>
+                                <h1 class="fs-48 fw-800" style="line-height: 44px; letter-spacing: 0; color: #65627a">
+                                    <span class="fs-28 fw-500" style="vertical-align: middle">$</span>59
+                                </h1>
+                                <hr style="border-top: 1px solid #e0e0e0; margin: 20px 0" />
+                                <p>
+                                    <svg class="svg-inline--fa fa-circle-check" aria-hidden="true" style="
+                        font-size: 18px;
+                        color: #34a853;
+                        margin-right: 15px;
+                      " focusable="false" data-prefix="fas" data-icon="circle-check" role="img"
+                                        xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" data-fa-i2svg="">
+                                        <path fill="currentColor"
+                                            d="M0 256C0 114.6 114.6 0 256 0C397.4 0 512 114.6 512 256C512 397.4 397.4 512 256 512C114.6 512 0 397.4 0 256zM371.8 211.8C382.7 200.9 382.7 183.1 371.8 172.2C360.9 161.3 343.1 161.3 332.2 172.2L224 280.4L179.8 236.2C168.9 225.3 151.1 225.3 140.2 236.2C129.3 247.1 129.3 264.9 140.2 275.8L204.2 339.8C215.1 350.7 232.9 350.7 243.8 339.8L371.8 211.8z">
+                                        </path>
+                                    </svg><!-- <i class="fa fa-check-circle" aria-hidden="true" style="font-size: 18px;color: #34a853;margin-right: 15px;"></i> Font Awesome fontawesome.com -->Lifetime
+                                    update
+                                </p>
+                                <p>
+                                    <svg class="svg-inline--fa fa-circle-check" aria-hidden="true" style="
+                        font-size: 18px;
+                        color: #34a853;
+                        margin-right: 15px;
+                      " focusable="false" data-prefix="fas" data-icon="circle-check" role="img"
+                                        xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" data-fa-i2svg="">
+                                        <path fill="currentColor"
+                                            d="M0 256C0 114.6 114.6 0 256 0C397.4 0 512 114.6 512 256C512 397.4 397.4 512 256 512C114.6 512 0 397.4 0 256zM371.8 211.8C382.7 200.9 382.7 183.1 371.8 172.2C360.9 161.3 343.1 161.3 332.2 172.2L224 280.4L179.8 236.2C168.9 225.3 151.1 225.3 140.2 236.2C129.3 247.1 129.3 264.9 140.2 275.8L204.2 339.8C215.1 350.7 232.9 350.7 243.8 339.8L371.8 211.8z">
+                                        </path>
+                                    </svg><!-- <i class="fa fa-check-circle" aria-hidden="true" style="font-size: 18px;color: #34a853;margin-right: 15px;"></i> Font Awesome fontawesome.com -->Permitted
+                                    for 1 domain
+                                </p>
+                                <p>
+                                    <svg class="svg-inline--fa fa-circle-check" aria-hidden="true" style="
+                        font-size: 18px;
+                        color: #34a853;
+                        margin-right: 15px;
+                      " focusable="false" data-prefix="fas" data-icon="circle-check" role="img"
+                                        xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" data-fa-i2svg="">
+                                        <path fill="currentColor"
+                                            d="M0 256C0 114.6 114.6 0 256 0C397.4 0 512 114.6 512 256C512 397.4 397.4 512 256 512C114.6 512 0 397.4 0 256zM371.8 211.8C382.7 200.9 382.7 183.1 371.8 172.2C360.9 161.3 343.1 161.3 332.2 172.2L224 280.4L179.8 236.2C168.9 225.3 151.1 225.3 140.2 236.2C129.3 247.1 129.3 264.9 140.2 275.8L204.2 339.8C215.1 350.7 232.9 350.7 243.8 339.8L371.8 211.8z">
+                                        </path>
+                                    </svg><!-- <i class="fa fa-check-circle" aria-hidden="true" style="font-size: 18px;color: #34a853;margin-right: 15px;"></i> Font Awesome fontawesome.com -->6
+                                    months technical support
+                                </p>
+                                <p>
+                                    <svg class="svg-inline--fa fa-circle-check" aria-hidden="true" style="
+                        font-size: 18px;
+                        color: #34a853;
+                        margin-right: 15px;
+                      " focusable="false" data-prefix="fas" data-icon="circle-check" role="img"
+                                        xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" data-fa-i2svg="">
+                                        <path fill="currentColor"
+                                            d="M0 256C0 114.6 114.6 0 256 0C397.4 0 512 114.6 512 256C512 397.4 397.4 512 256 512C114.6 512 0 397.4 0 256zM371.8 211.8C382.7 200.9 382.7 183.1 371.8 172.2C360.9 161.3 343.1 161.3 332.2 172.2L224 280.4L179.8 236.2C168.9 225.3 151.1 225.3 140.2 236.2C129.3 247.1 129.3 264.9 140.2 275.8L204.2 339.8C215.1 350.7 232.9 350.7 243.8 339.8L371.8 211.8z">
+                                        </path>
+                                    </svg><!-- <i class="fa fa-check-circle" aria-hidden="true" style="font-size: 18px;color: #34a853;margin-right: 15px;"></i> Font Awesome fontawesome.com -->Zendesk
+                                    support (1 business day)
+                                </p>
+                                <p>
+                                    <svg class="svg-inline--fa fa-circle-check" aria-hidden="true" style="
+                        font-size: 18px;
+                        color: #34a853;
+                        margin-right: 15px;
+                      " focusable="false" data-prefix="fas" data-icon="circle-check" role="img"
+                                        xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" data-fa-i2svg="">
+                                        <path fill="currentColor"
+                                            d="M0 256C0 114.6 114.6 0 256 0C397.4 0 512 114.6 512 256C512 397.4 397.4 512 256 512C114.6 512 0 397.4 0 256zM371.8 211.8C382.7 200.9 382.7 183.1 371.8 172.2C360.9 161.3 343.1 161.3 332.2 172.2L224 280.4L179.8 236.2C168.9 225.3 151.1 225.3 140.2 236.2C129.3 247.1 129.3 264.9 140.2 275.8L204.2 339.8C215.1 350.7 232.9 350.7 243.8 339.8L371.8 211.8z">
+                                        </path>
+                                    </svg><!-- <i class="fa fa-check-circle" aria-hidden="true" style="font-size: 18px;color: #34a853;margin-right: 15px;"></i> Font Awesome fontawesome.com -->For
+                                    personal project
+                                </p>
+                                <p>
+                                    <svg class="svg-inline--fa fa-circle-check" aria-hidden="true" style="
+                        font-size: 18px;
+                        color: #ea4335;
+                        margin-right: 15px;
+                      " focusable="false" data-prefix="fas" data-icon="circle-check" role="img"
+                                        xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" data-fa-i2svg="">
+                                        <path fill="currentColor"
+                                            d="M0 256C0 114.6 114.6 0 256 0C397.4 0 512 114.6 512 256C512 397.4 397.4 512 256 512C114.6 512 0 397.4 0 256zM371.8 211.8C382.7 200.9 382.7 183.1 371.8 172.2C360.9 161.3 343.1 161.3 332.2 172.2L224 280.4L179.8 236.2C168.9 225.3 151.1 225.3 140.2 236.2C129.3 247.1 129.3 264.9 140.2 275.8L204.2 339.8C215.1 350.7 232.9 350.7 243.8 339.8L371.8 211.8z">
+                                        </path>
+                                    </svg><!-- <i class="fa fa-check-circle" aria-hidden="true" style="font-size: 18px;color: #EA4335;margin-right: 15px;"></i> Font Awesome fontawesome.com -->For
+                                    commercial prjoect
+                                </p>
+                                <p>
+                                    <svg class="svg-inline--fa fa-circle-check" aria-hidden="true" style="
+                        font-size: 18px;
+                        color: #ea4335;
+                        margin-right: 15px;
+                      " focusable="false" data-prefix="fas" data-icon="circle-check" role="img"
+                                        xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" data-fa-i2svg="">
+                                        <path fill="currentColor"
+                                            d="M0 256C0 114.6 114.6 0 256 0C397.4 0 512 114.6 512 256C512 397.4 397.4 512 256 512C114.6 512 0 397.4 0 256zM371.8 211.8C382.7 200.9 382.7 183.1 371.8 172.2C360.9 161.3 343.1 161.3 332.2 172.2L224 280.4L179.8 236.2C168.9 225.3 151.1 225.3 140.2 236.2C129.3 247.1 129.3 264.9 140.2 275.8L204.2 339.8C215.1 350.7 232.9 350.7 243.8 339.8L371.8 211.8z">
+                                        </path>
+                                    </svg><!-- <i class="fa fa-check-circle" aria-hidden="true" style="font-size: 18px;color: #EA4335;margin-right: 15px;"></i> Font Awesome fontawesome.com -->1
+                                    hr Live support (AnyDesk)
+                                </p>
+                                <p>
+                                    <svg class="svg-inline--fa fa-circle-check" aria-hidden="true" style="
+                        font-size: 18px;
+                        color: #ea4335;
+                        margin-right: 15px;
+                      " focusable="false" data-prefix="fas" data-icon="circle-check" role="img"
+                                        xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" data-fa-i2svg="">
+                                        <path fill="currentColor"
+                                            d="M0 256C0 114.6 114.6 0 256 0C397.4 0 512 114.6 512 256C512 397.4 397.4 512 256 512C114.6 512 0 397.4 0 256zM371.8 211.8C382.7 200.9 382.7 183.1 371.8 172.2C360.9 161.3 343.1 161.3 332.2 172.2L224 280.4L179.8 236.2C168.9 225.3 151.1 225.3 140.2 236.2C129.3 247.1 129.3 264.9 140.2 275.8L204.2 339.8C215.1 350.7 232.9 350.7 243.8 339.8L371.8 211.8z">
+                                        </path>
+                                    </svg><!-- <i class="fa fa-check-circle" aria-hidden="true" style="font-size: 18px;color: #EA4335;margin-right: 15px;"></i> Font Awesome fontawesome.com -->Free
+                                    installation (cpanel)
+                                </p>
+                                <hr style="border-top: 1px solid #e0e0e0; margin: 20px 0" />
+                                <a href="https://activeitzone.com/active-ecommerce-cms#"
+                                    class="btn btn-block btn-regular btn-outline-dark hov-shadow" style="
+                      border: 1px solid #707070;
+                      border-radius: 0.75rem;
+                      padding: 16px;
+                    ">Buy Regular License</a>
+                            </div>
+                        </div>
+                        <!--Regular License [End]-->
+                        <!--Extended License [Start]-->
+                        <div class="col-lg-4 col-md-6 my-3">
+                            <div style="
+                    padding: 1.875rem;
+                    border: 1px dashed #e7e7e7;
+                    border-radius: 16px;
+                  ">
+                                <p class="fs-17 fw-700 text-dark-regular">Extended License</p>
+                                <h1 class="fs-48 fw-800" style="line-height: 44px; letter-spacing: 0; color: #65627a">
+                                    <span class="fs-28 fw-500" style="vertical-align: middle">$</span>525
+                                </h1>
+                                <hr style="border-top: 1px solid #e0e0e0; margin: 20px 0" />
+                                <p>
+                                    <svg class="svg-inline--fa fa-circle-check" aria-hidden="true" style="
+                        font-size: 18px;
+                        color: #34a853;
+                        margin-right: 15px;
+                      " focusable="false" data-prefix="fas" data-icon="circle-check" role="img"
+                                        xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" data-fa-i2svg="">
+                                        <path fill="currentColor"
+                                            d="M0 256C0 114.6 114.6 0 256 0C397.4 0 512 114.6 512 256C512 397.4 397.4 512 256 512C114.6 512 0 397.4 0 256zM371.8 211.8C382.7 200.9 382.7 183.1 371.8 172.2C360.9 161.3 343.1 161.3 332.2 172.2L224 280.4L179.8 236.2C168.9 225.3 151.1 225.3 140.2 236.2C129.3 247.1 129.3 264.9 140.2 275.8L204.2 339.8C215.1 350.7 232.9 350.7 243.8 339.8L371.8 211.8z">
+                                        </path>
+                                    </svg><!-- <i class="fa fa-check-circle" aria-hidden="true" style="font-size: 18px;color: #34a853;margin-right: 15px;"></i> Font Awesome fontawesome.com -->Lifetime
+                                    update
+                                </p>
+                                <p>
+                                    <svg class="svg-inline--fa fa-circle-check" aria-hidden="true" style="
+                        font-size: 18px;
+                        color: #34a853;
+                        margin-right: 15px;
+                      " focusable="false" data-prefix="fas" data-icon="circle-check" role="img"
+                                        xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" data-fa-i2svg="">
+                                        <path fill="currentColor"
+                                            d="M0 256C0 114.6 114.6 0 256 0C397.4 0 512 114.6 512 256C512 397.4 397.4 512 256 512C114.6 512 0 397.4 0 256zM371.8 211.8C382.7 200.9 382.7 183.1 371.8 172.2C360.9 161.3 343.1 161.3 332.2 172.2L224 280.4L179.8 236.2C168.9 225.3 151.1 225.3 140.2 236.2C129.3 247.1 129.3 264.9 140.2 275.8L204.2 339.8C215.1 350.7 232.9 350.7 243.8 339.8L371.8 211.8z">
+                                        </path>
+                                    </svg><!-- <i class="fa fa-check-circle" aria-hidden="true" style="font-size: 18px;color: #34a853;margin-right: 15px;"></i> Font Awesome fontawesome.com -->Permitted
+                                    for 1 domain
+                                </p>
+                                <p>
+                                    <svg class="svg-inline--fa fa-circle-check" aria-hidden="true" style="
+                        font-size: 18px;
+                        color: #34a853;
+                        margin-right: 15px;
+                      " focusable="false" data-prefix="fas" data-icon="circle-check" role="img"
+                                        xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" data-fa-i2svg="">
+                                        <path fill="currentColor"
+                                            d="M0 256C0 114.6 114.6 0 256 0C397.4 0 512 114.6 512 256C512 397.4 397.4 512 256 512C114.6 512 0 397.4 0 256zM371.8 211.8C382.7 200.9 382.7 183.1 371.8 172.2C360.9 161.3 343.1 161.3 332.2 172.2L224 280.4L179.8 236.2C168.9 225.3 151.1 225.3 140.2 236.2C129.3 247.1 129.3 264.9 140.2 275.8L204.2 339.8C215.1 350.7 232.9 350.7 243.8 339.8L371.8 211.8z">
+                                        </path>
+                                    </svg><!-- <i class="fa fa-check-circle" aria-hidden="true" style="font-size: 18px;color: #34a853;margin-right: 15px;"></i> Font Awesome fontawesome.com -->6
+                                    months technical support
+                                </p>
+                                <p>
+                                    <svg class="svg-inline--fa fa-circle-check" aria-hidden="true" style="
+                        font-size: 18px;
+                        color: #34a853;
+                        margin-right: 15px;
+                      " focusable="false" data-prefix="fas" data-icon="circle-check" role="img"
+                                        xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" data-fa-i2svg="">
+                                        <path fill="currentColor"
+                                            d="M0 256C0 114.6 114.6 0 256 0C397.4 0 512 114.6 512 256C512 397.4 397.4 512 256 512C114.6 512 0 397.4 0 256zM371.8 211.8C382.7 200.9 382.7 183.1 371.8 172.2C360.9 161.3 343.1 161.3 332.2 172.2L224 280.4L179.8 236.2C168.9 225.3 151.1 225.3 140.2 236.2C129.3 247.1 129.3 264.9 140.2 275.8L204.2 339.8C215.1 350.7 232.9 350.7 243.8 339.8L371.8 211.8z">
+                                        </path>
+                                    </svg><!-- <i class="fa fa-check-circle" aria-hidden="true" style="font-size: 18px;color: #34a853;margin-right: 15px;"></i> Font Awesome fontawesome.com -->Zendesk
+                                    support (1 business day)
+                                </p>
+                                <p>
+                                    <svg class="svg-inline--fa fa-circle-check" aria-hidden="true" style="
+                        font-size: 18px;
+                        color: #34a853;
+                        margin-right: 15px;
+                      " focusable="false" data-prefix="fas" data-icon="circle-check" role="img"
+                                        xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" data-fa-i2svg="">
+                                        <path fill="currentColor"
+                                            d="M0 256C0 114.6 114.6 0 256 0C397.4 0 512 114.6 512 256C512 397.4 397.4 512 256 512C114.6 512 0 397.4 0 256zM371.8 211.8C382.7 200.9 382.7 183.1 371.8 172.2C360.9 161.3 343.1 161.3 332.2 172.2L224 280.4L179.8 236.2C168.9 225.3 151.1 225.3 140.2 236.2C129.3 247.1 129.3 264.9 140.2 275.8L204.2 339.8C215.1 350.7 232.9 350.7 243.8 339.8L371.8 211.8z">
+                                        </path>
+                                    </svg><!-- <i class="fa fa-check-circle" aria-hidden="true" style="font-size: 18px;color: #34a853;margin-right: 15px;"></i> Font Awesome fontawesome.com -->For
+                                    personal project
+                                </p>
+                                <p>
+                                    <svg class="svg-inline--fa fa-circle-check" aria-hidden="true" style="
+                        font-size: 18px;
+                        color: #34a853;
+                        margin-right: 15px;
+                      " focusable="false" data-prefix="fas" data-icon="circle-check" role="img"
+                                        xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" data-fa-i2svg="">
+                                        <path fill="currentColor"
+                                            d="M0 256C0 114.6 114.6 0 256 0C397.4 0 512 114.6 512 256C512 397.4 397.4 512 256 512C114.6 512 0 397.4 0 256zM371.8 211.8C382.7 200.9 382.7 183.1 371.8 172.2C360.9 161.3 343.1 161.3 332.2 172.2L224 280.4L179.8 236.2C168.9 225.3 151.1 225.3 140.2 236.2C129.3 247.1 129.3 264.9 140.2 275.8L204.2 339.8C215.1 350.7 232.9 350.7 243.8 339.8L371.8 211.8z">
+                                        </path>
+                                    </svg><!-- <i class="fa fa-check-circle" aria-hidden="true" style="font-size: 18px;color: #34a853;margin-right: 15px;"></i> Font Awesome fontawesome.com -->For
+                                    commercial prjoect
+                                </p>
+                                <p>
+                                    <svg class="svg-inline--fa fa-circle-check" aria-hidden="true" style="
+                        font-size: 18px;
+                        color: #34a853;
+                        margin-right: 15px;
+                      " focusable="false" data-prefix="fas" data-icon="circle-check" role="img"
+                                        xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" data-fa-i2svg="">
+                                        <path fill="currentColor"
+                                            d="M0 256C0 114.6 114.6 0 256 0C397.4 0 512 114.6 512 256C512 397.4 397.4 512 256 512C114.6 512 0 397.4 0 256zM371.8 211.8C382.7 200.9 382.7 183.1 371.8 172.2C360.9 161.3 343.1 161.3 332.2 172.2L224 280.4L179.8 236.2C168.9 225.3 151.1 225.3 140.2 236.2C129.3 247.1 129.3 264.9 140.2 275.8L204.2 339.8C215.1 350.7 232.9 350.7 243.8 339.8L371.8 211.8z">
+                                        </path>
+                                    </svg><!-- <i class="fa fa-check-circle" aria-hidden="true" style="font-size: 18px;color: #34a853;margin-right: 15px;"></i> Font Awesome fontawesome.com -->1
+                                    hr Live support (AnyDesk)
+                                </p>
+                                <p>
+                                    <svg class="svg-inline--fa fa-circle-check" aria-hidden="true" style="
+                        font-size: 18px;
+                        color: #34a853;
+                        margin-right: 15px;
+                      " focusable="false" data-prefix="fas" data-icon="circle-check" role="img"
+                                        xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" data-fa-i2svg="">
+                                        <path fill="currentColor"
+                                            d="M0 256C0 114.6 114.6 0 256 0C397.4 0 512 114.6 512 256C512 397.4 397.4 512 256 512C114.6 512 0 397.4 0 256zM371.8 211.8C382.7 200.9 382.7 183.1 371.8 172.2C360.9 161.3 343.1 161.3 332.2 172.2L224 280.4L179.8 236.2C168.9 225.3 151.1 225.3 140.2 236.2C129.3 247.1 129.3 264.9 140.2 275.8L204.2 339.8C215.1 350.7 232.9 350.7 243.8 339.8L371.8 211.8z">
+                                        </path>
+                                    </svg><!-- <i class="fa fa-check-circle" aria-hidden="true" style="font-size: 18px;color: #34a853;margin-right: 15px;"></i> Font Awesome fontawesome.com -->Free
+                                    installation (cpanel)
+                                </p>
+                                <hr style="border-top: 1px solid #e0e0e0; margin: 20px 0" />
+                                <a href="https://activeitzone.com/active-ecommerce-cms#"
+                                    class="btn btn-block btn-extended hov-shadow" style="
+                      background: #f5a100;
+                      border: 1px solid #f5a100;
+                      border-radius: 0.75rem;
+                      padding: 16px;
+                      color: #fff;
+                    ">Buy Extended License</a>
+                            </div>
+                        </div>
+                        <!--Extended License [End]-->
+                    </div>
+                    <div class="text-center p-4">
+                        <small>Couldn't decide which one should buy. Click here to know more
+                            about
+                            <a href="https://activeitzone.com/active-ecommerce-cms#" target="_blank"
+                                rel="noopener noreferrer" class="fs-14">Regular License</a>
+                            or
+                            <a href="https://activeitzone.com/active-ecommerce-cms#" target="_blank"
+                                rel="noopener noreferrer" class="fs-14">Extended License</a>.<br />
+                            Or, you can get help from our
+                            <a href="https://activeitzone.com/active-ecommerce-cms#" target="_blank"
+                                rel="noopener noreferrer" class="fs-14">support</a>.
+                        </small>
+                    </div>
+                </div>
+            </div>
+            <!--Section Pricing [End]-->
+        </main>
+
+        <!--Section footer [Start]-->
+        <div class="section-footer">
+            <div class="container">
+                <p class="description">
+                    Welcome to the world of Active IT zone. Active IT zone is an
+                    established IT company delivering web services of any complexity to
+                    clients worldwide. We have built a reputation for doing solid,
+                    disciplined work that is delivered on time, and on cost. We use
+                    state-of-the-art technology to impart fast, user-friendly, easy and
+                    comprehensive solutions that satisfy client requirements. Our
+                    customers are companies of all sizes ranging from startups to large
+                    enterprises who realize that they need a professional IT solution to
+                    generate revenue streams, establish communication channels or
+                    streamline business operations.
+                </p>
+                <p class="description">
+                    If you're a freelancer, you are allowed to create an end product for
+                    a client using the Regular License and charge them for your
+                    services.
+                </p>
+                <p class="description">
+                    Every item you purchase from us comes with a support. This support
+                    does not includes installation.
+                </p>
+                <hr style="border-top: 1px solid #424242" />
+            
+                
+                <p class="footer-title">Follow us</p>
+                <div class="d-block d-flex">
+                    <div class="social mr-3">
+                        <a href="https://activeitzone.com/active-ecommerce-cms#" target="_blank"
+                            rel="noopener noreferrer"><svg class="svg-inline--fa fa-facebook-f facebook"
+                                aria-hidden="true" focusable="false" data-prefix="fab" data-icon="facebook-f" role="img"
+                                xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 512" data-fa-i2svg="">
+                                <path fill="currentColor"
+                                    d="M279.1 288l14.22-92.66h-88.91v-60.13c0-25.35 12.42-50.06 52.24-50.06h40.42V6.26S260.4 0 225.4 0c-73.22 0-121.1 44.38-121.1 124.7v70.62H22.89V288h81.39v224h100.2V288z">
+                                </path>
+                            </svg><!-- <i class="fa-brands fa-facebook-f facebook"></i> Font Awesome fontawesome.com --></a>
+                    </div>
+                    <div class="social mr-3">
+                        <a href="https://activeitzone.com/active-ecommerce-cms#" target="_blank"
+                            rel="noopener noreferrer"><svg class="svg-inline--fa fa-twitter twitter" aria-hidden="true"
+                                focusable="false" data-prefix="fab" data-icon="twitter" role="img"
+                                xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" data-fa-i2svg="">
+                                <path fill="currentColor"
+                                    d="M459.4 151.7c.325 4.548 .325 9.097 .325 13.65 0 138.7-105.6 298.6-298.6 298.6-59.45 0-114.7-17.22-161.1-47.11 8.447 .974 16.57 1.299 25.34 1.299 49.06 0 94.21-16.57 130.3-44.83-46.13-.975-84.79-31.19-98.11-72.77 6.498 .974 12.99 1.624 19.82 1.624 9.421 0 18.84-1.3 27.61-3.573-48.08-9.747-84.14-51.98-84.14-102.1v-1.299c13.97 7.797 30.21 12.67 47.43 13.32-28.26-18.84-46.78-51.01-46.78-87.39 0-19.49 5.197-37.36 14.29-52.95 51.65 63.67 129.3 105.3 216.4 109.8-1.624-7.797-2.599-15.92-2.599-24.04 0-57.83 46.78-104.9 104.9-104.9 30.21 0 57.5 12.67 76.67 33.14 23.72-4.548 46.46-13.32 66.6-25.34-7.798 24.37-24.37 44.83-46.13 57.83 21.12-2.273 41.58-8.122 60.43-16.24-14.29 20.79-32.16 39.31-52.63 54.25z">
+                                </path>
+                            </svg><!-- <i class="fa-brands fa-twitter twitter"></i> Font Awesome fontawesome.com --></a>
+                    </div>
+                    <div class="social mr-3">
+                        <a href="https://activeitzone.com/active-ecommerce-cms#" target="_blank"
+                            rel="noopener noreferrer"><svg class="svg-inline--fa fa-instagram instagram"
+                                aria-hidden="true" focusable="false" data-prefix="fab" data-icon="instagram" role="img"
+                                xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512" data-fa-i2svg="">
+                                <path fill="currentColor"
+                                    d="M224.1 141c-63.6 0-114.9 51.3-114.9 114.9s51.3 114.9 114.9 114.9S339 319.5 339 255.9 287.7 141 224.1 141zm0 189.6c-41.1 0-74.7-33.5-74.7-74.7s33.5-74.7 74.7-74.7 74.7 33.5 74.7 74.7-33.6 74.7-74.7 74.7zm146.4-194.3c0 14.9-12 26.8-26.8 26.8-14.9 0-26.8-12-26.8-26.8s12-26.8 26.8-26.8 26.8 12 26.8 26.8zm76.1 27.2c-1.7-35.9-9.9-67.7-36.2-93.9-26.2-26.2-58-34.4-93.9-36.2-37-2.1-147.9-2.1-184.9 0-35.8 1.7-67.6 9.9-93.9 36.1s-34.4 58-36.2 93.9c-2.1 37-2.1 147.9 0 184.9 1.7 35.9 9.9 67.7 36.2 93.9s58 34.4 93.9 36.2c37 2.1 147.9 2.1 184.9 0 35.9-1.7 67.7-9.9 93.9-36.2 26.2-26.2 34.4-58 36.2-93.9 2.1-37 2.1-147.8 0-184.8zM398.8 388c-7.8 19.6-22.9 34.7-42.6 42.6-29.5 11.7-99.5 9-132.1 9s-102.7 2.6-132.1-9c-19.6-7.8-34.7-22.9-42.6-42.6-11.7-29.5-9-99.5-9-132.1s-2.6-102.7 9-132.1c7.8-19.6 22.9-34.7 42.6-42.6 29.5-11.7 99.5-9 132.1-9s102.7-2.6 132.1 9c19.6 7.8 34.7 22.9 42.6 42.6 11.7 29.5 9 99.5 9 132.1s2.7 102.7-9 132.1z">
+                                </path>
+                            </svg><!-- <i class="fa-brands fa-instagram instagram"></i> Font Awesome fontawesome.com --></a>
+                    </div>
+                    <div class="social mr-3">
+                        <a href="https://activeitzone.com/active-ecommerce-cms#" target="_blank"
+                            rel="noopener noreferrer"><svg class="svg-inline--fa fa-linkedin-in linkedin"
+                                aria-hidden="true" focusable="false" data-prefix="fab" data-icon="linkedin-in"
+                                role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512" data-fa-i2svg="">
+                                <path fill="currentColor"
+                                    d="M100.3 448H7.4V148.9h92.88zM53.79 108.1C24.09 108.1 0 83.5 0 53.8a53.79 53.79 0 0 1 107.6 0c0 29.7-24.1 54.3-53.79 54.3zM447.9 448h-92.68V302.4c0-34.7-.7-79.2-48.29-79.2-48.29 0-55.69 37.7-55.69 76.7V448h-92.78V148.9h89.08v40.8h1.3c12.4-23.5 42.69-48.3 87.88-48.3 94 0 111.3 61.9 111.3 142.3V448z">
+                                </path>
+                            </svg><!-- <i class="fa-brands fa-linkedin-in linkedin"></i> Font Awesome fontawesome.com --></a>
+                    </div>
+                    <div class="social mr-3">
+                        <a href="https://activeitzone.com/active-ecommerce-cms#" target="_blank"
+                            rel="noopener noreferrer"><svg class="svg-inline--fa fa-youtube youtube" aria-hidden="true"
+                                focusable="false" data-prefix="fab" data-icon="youtube" role="img"
+                                xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512" data-fa-i2svg="">
+                                <path fill="currentColor"
+                                    d="M549.7 124.1c-6.281-23.65-24.79-42.28-48.28-48.6C458.8 64 288 64 288 64S117.2 64 74.63 75.49c-23.5 6.322-42 24.95-48.28 48.6-11.41 42.87-11.41 132.3-11.41 132.3s0 89.44 11.41 132.3c6.281 23.65 24.79 41.5 48.28 47.82C117.2 448 288 448 288 448s170.8 0 213.4-11.49c23.5-6.321 42-24.17 48.28-47.82 11.41-42.87 11.41-132.3 11.41-132.3s0-89.44-11.41-132.3zm-317.5 213.5V175.2l142.7 81.21-142.7 81.2z">
+                                </path>
+                            </svg><!-- <i class="fa-brands fa-youtube youtube"></i> Font Awesome fontawesome.com --></a>
+                    </div>
+                </div>
+                <hr style="border-top: 1px solid #424242" />
+            
+                <br />
+                <p class="footer-title">
+                    Need more info ! Contact our
+                    <a href="http://support.activeitzone.com/?_ga=2.195262319.2133624209.1656216572-663633015.1654070312"
+                        class="link" target="_blank" rel="noopener noreferrer">Support</a>
+                    Team
+                </p>
+            </div>
+            <hr style="
+            border-top: 1px solid #424242;
+            margin-top: 1.25rem;
+            margin-bottom: 1.5rem;
+          " />
+            <div class="container">
+                <p class="footer-title">
+                    Copyright © 2025 Tech Park It Limited. All rights reserved.
+                </p>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-4" style="min-height: 5px; background: #377dff"></div>
+            <div class="col-4" style="min-height: 5px; background: #ea4335"></div>
+            <div class="col-4" style="min-height: 5px; background: #34a853"></div>
+        </div>
+        <!--Section footer [End]-->
+
+        <!-- Back to top Button [Start]-->
+        <button class="toTopBtn" title="Go to top" style="display: none">
+            <svg class="svg-inline--fa fa-chevron-up" aria-hidden="true" focusable="false" data-prefix="fas"
+                data-icon="chevron-up" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"
+                data-fa-i2svg="">
+                <path fill="currentColor"
+                    d="M416 352c-8.188 0-16.38-3.125-22.62-9.375L224 173.3l-169.4 169.4c-12.5 12.5-32.75 12.5-45.25 0s-12.5-32.75 0-45.25l192-192c12.5-12.5 32.75-12.5 45.25 0l192 192c12.5 12.5 12.5 32.75 0 45.25C432.4 348.9 424.2 352 416 352z">
+                </path>
+            </svg><!-- <i class="fa-solid fa-chevron-up"></i> Font Awesome fontawesome.com -->
+        </button>
+        <!-- Back to top Button [Start]-->
+
+        <!-- Video Play [Start]-->
+        <div id="video-overlay" class="video-overlay">
+            <a class="video-overlay-close" style="text-decoration: none">×</a>
+        </div>
+        <!-- Video Play [End]-->
+    </div>
+
+    <!-- Scripts -->
+
+    <!-- jQuery and Bootstrap Bundle (includes Popper) -->
+    <script src="./assets/jquery-3.6.0.min.js.download"></script>
+    <script src="./assets/bootstrap.bundle.min.js.download"></script>
+    <!-- Swiper js-->
+    <script src="./assets/swiper-bundle.min.js.download"></script>
+    <!--Font Awesome-->
+    <script src="./assets/fontawesome.all.min.js.download"></script>
+    <!-- Slider js-->
+    <script src="./assets/slick.js.download"></script>
+    <script src="./assets/3d-slider.js.download"></script>
+    <script src="./assets/carousel.js.download"></script>
+    <!-- WOW js-->
+    <script src="./assets/wow.min.js.download"></script>
+    <script>
+        new WOW().init();
+    </script>
+    <!-- Counter js-->
+    <script src="./assets/multi-animated-counter.js.download"></script>
+    <!-- Custom js-->
+    <script src="./assets/aiz-core.js.download"></script>
+
+    <script>
+        (function () {
+            function c() {
+                var b = a.contentDocument || a.contentWindow.document;
+                if (b) {
+                    var d = b.createElement("script");
+                    d.innerHTML =
+                        "window.__CF$cv$params={r:'92c84811df5ca475',t:'MTc0NDAxNTg2OS4wMDAwMDA='};var a=document.createElement('script');a.nonce='';a.src='/cdn-cgi/challenge-platform/scripts/jsd/main.js';document.getElementsByTagName('head')[0].appendChild(a);";
+                    b.getElementsByTagName("head")[0].appendChild(d);
+                }
+            }
+            if (document.body) {
+                var a = document.createElement("iframe");
+                a.height = 1;
+                a.width = 1;
+                a.style.position = "absolute";
+                a.style.top = 0;
+                a.style.left = 0;
+                a.style.border = "none";
+                a.style.visibility = "hidden";
+                document.body.appendChild(a);
+                if ("loading" !== document.readyState) c();
+                else if (window.addEventListener)
+                    document.addEventListener("DOMContentLoaded", c);
+                else {
+                    var e = document.onreadystatechange || function () { };
+                    document.onreadystatechange = function (b) {
+                        e(b);
+                        "loading" !== document.readyState &&
+                            ((document.onreadystatechange = e), c());
+                    };
+                }
+            }
+        })();
+    </script>
+    <iframe height="1" width="1" style="
+        position: absolute;
+        top: 0px;
+        left: 0px;
+        border: none;
+        visibility: hidden;
+      " src="./assets/saved_resource.html"></iframe>
+</body>
+
+</html>

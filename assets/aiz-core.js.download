@@ -1,0 +1,246 @@
+//========== About & premium add-on Slider ============
+$(document).ready(function(){
+    var prevDiv = screen.width;
+    var width = screen.width;
+    var grid = 1;
+    var grid2 = 1;
+    if (width<576) {
+        grid = 1;
+        grid2 = 1;
+    }if(width>=576) {
+        grid = 2;
+        grid2 = 2;
+    }if(width>=768) {
+        grid = 3;
+        grid2 = 2;
+    }if(width>=992) {
+        grid = 4;
+        grid2 = 3;
+    }if(width>=1200) {
+        grid = 5;
+        grid2 = 4;
+    }
+    if(width>1368) {
+        grid = 6;
+        grid2 = 4;
+    }
+    $('.about-slider').slick({
+        slidesToShow: grid,
+        slidesToScroll: 1,
+        autoplay: true,
+        autoplaySpeed: 2000,
+    });
+    $('.active-ecommerce-content-premium-add-on-slider').slick({
+        slidesToShow: grid2,
+        slidesToScroll: 1,
+        autoplay: true,
+        autoplaySpeed: 2000,
+    });
+});
+
+//========== header Sticky ============
+function headerSticky() {
+    let header = document.getElementById("header");
+    if (window.scrollY > header.offsetHeight) {
+        header.classList.add("sticky");
+    } else if(window.scrollY === 0){
+        header.classList.remove("sticky");
+    }
+}
+
+$(document).on( 'scroll', function(){
+    headerSticky();
+});
+
+//========== Upper Menu hover effect for Mega menu ============
+function megamenuOpen(value){
+    $(".mega-menu").css("z-index", "9");
+    $("#mega-menu-"+value).css("z-index", "10");
+    $("#mega-menu-"+value).addClass("show");
+    $("#navbarDropdown-"+value).addClass("active");
+    $('.sticky').addClass('shadow-none');
+    $('.navbar').addClass('bg-white');
+}
+function megamenuClose(value){
+    $("#mega-menu-"+value).removeClass("show");
+    $("#navbarDropdown-"+value).removeClass("active");
+    $('.sticky').removeClass('shadow-none');
+    setTimeout( function(){
+        $('.navbar').removeClass('bg-white');
+    }  , 2000 );
+
+}
+
+//========== side Menu ===========
+function openNav() {
+    $(".sideNavPanel").addClass("active");
+}
+
+function closeNav() {
+    $(".sideNavPanel").removeClass("active");
+}
+//---- Submenu -------
+$(".sub-menu-collapse").on('click', function(){
+    $(this).parent('.nav-item').siblings('.nav-item').find(".sub-menu").slideUp("slow");
+    $(this).parent('.nav-item').siblings('.nav-item').find(".nav-link").find('.show-hide-icon').removeClass('show');
+    $(this).siblings('.sub-menu').slideToggle("slow");
+    $(this).find('.show-hide-icon').toggleClass('show');
+});
+
+//========== Go to Top ============
+$(document).ready(function() {
+    goTopBtn = $(".toTopBtn");
+    window.onscroll = function() {scrollFunction()};
+    function scrollFunction() {
+        if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+            $(".toTopBtn").css('display','block');
+        } else {
+            $(".toTopBtn").css('display','none');
+        }
+    }
+    $('.toTopBtn').click(function(){
+        document.body.scrollTop = 0;
+        document.documentElement.scrollTop = 0;
+    });
+});
+
+//========== premium items content expand ============
+$(".section-premium-item .premium-item .premium-item-content .premium-item-body-content").on('mouseenter', function(){
+    $(this).addClass('show');
+});
+$(".section-premium-item .premium-item .premium-item-content").on('mouseleave', function(){
+    $(this).children('.premium-item-body-content').removeClass('show');
+});
+
+//========== Playing Video ============
+$('.play-video').on('click', function(e){
+    e.preventDefault();
+    var href = $(this).attr('href');
+    $('#video-overlay').addClass('open');
+    $("#video-overlay").append('<iframe   style="width:80%;aspect-ratio: 16 / 9;" src="'+href+'" title="Active eCommerce CMS Promo | Best Laravel eCommerce Open Source" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>');
+});
+
+$('.video-overlay, .video-overlay-close').on('click', function(e){
+    e.preventDefault();
+    close_video();
+});
+
+$(document).keyup(function(e){
+    if(e.keyCode === 27) { close_video(); }
+});
+
+function close_video() {
+    $('.video-overlay.open').removeClass('open').find('iframe').remove();
+};
+
+//========== Frontend Design Slider ============
+const swiper = new Swiper('.swiper', {
+    // Optional parameters
+    direction: 'horizontal',
+    loop: true,
+    centeredSlides: true,
+    effect: 'slide',
+    speed : 1200,
+    autoplay: {
+        delay: 3000,
+    },
+    // If we need pagination
+    pagination: {
+        el: '.swiper-pagination',
+        type: 'bullets',
+        clickable: true,
+    },
+    // Default parameters
+    slidesPerView: 1,
+    spaceBetween: 0,
+    // Responsive breakpoints
+    breakpoints: {
+      // when window width is >= 576px
+      576: {
+        slidesPerView: 2,
+        spaceBetween: 15
+      }
+    }
+});
+
+//========== features Slider ============
+const swiper_features = new Swiper('.swiper-features', {
+    // Optional parameters
+    direction: 'horizontal',
+    loop: true,
+    // centeredSlides: true,
+    autoplay: {
+        delay: 2000,
+    },
+    // Default parameters
+    slidesPerView: 1,
+    spaceBetween: 0,
+    // Responsive breakpoints
+    breakpoints: {
+        // when window width is >= 576px
+        576: {
+            slidesPerView: 1,
+        },
+        // when window width is >= 768px
+        768: {
+            slidesPerView: 3,
+        },
+        // when window width is >= 992px
+        992: {
+            slidesPerView: 5,
+        },
+        // when window width is >= 1200px
+        1200: {
+            slidesPerView: 7,
+        }
+    }
+});
+
+//========== reviews Slider ============
+const swiper_reviews = new Swiper('.swiper-reviews', {
+    // Optional parameters
+    direction: 'horizontal',
+    loop: true,
+    // centeredSlides: true,
+    autoplay: {
+        delay: 3000,
+    },
+    // Default parameters
+    slidesPerView: 1,
+    spaceBetween: 0,
+    // Responsive breakpoints
+    breakpoints: {
+        // when window width is >= 576px
+        576: {
+            slidesPerView: 1,
+        },
+        // when window width is >= 768px
+        768: {
+            slidesPerView: 3,
+        },
+        // when window width is >= 992px
+        992: {
+            slidesPerView: 5,
+        }
+    }
+});
+
+//========== Expand Icon ============
+function expandIcon(e){
+    var exp = $(e).hasClass('collapsed');
+    if(exp){
+        $(e).children().text('-');
+    }else{
+        $(e).children().text('+');
+    }
+}
+
+//========== Resize Window ============
+// $( window ).resize(function() {
+//     location.reload();
+// });
+
+//==========counters ============
+let visibilityIds = ['#counters_1','#counters_2','#counters_3'];
+let counterClass ='.counter';
+let defaultSpeed = 3000;
